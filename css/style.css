@@ -324,22 +324,48 @@ ul.navbar-right li a {
     margin-top: 53px;
 }
 
-#fourth-section .main-quote {
+#fourth-section, #eighth-section {
+    background-color: #181818;
+    background: url(../images/section4-bg.png) no-repeat;
+    max-height: 134px;
+    height: 134px;
+}
+
+#fourth-section .main-quote, #eighth-section .main-quote {
     margin-left: 410px;
     margin-top: 26px;
 }
 
-#fourth-section h1 {
+#fourth-section h1, #eighth-section h1 {
     font-size: 29.54px;
     font-family: MuseoSans700;
 }
 
-#fourth-section button {
+#fourth-section button, #eighth-section button {
     width: 204px;
     height: 41px;
     margin-top: 5px;
     margin-left: 252px;
     font-size: 18.55px;
+}
+
+#fifth-section {
+    max-height: 737px;
+    height: 737px;
+    background: url(../images/section5-bg.png);
+}
+
+
+#sixth-section {
+    max-height: 411px;
+    height: 411px;
+    background-color: #f0efd6;
+}
+
+#seventh-section {
+    max-height: 995px;
+    height: 995px;
+    background-color: #ffffff;
 }
 
 
@@ -367,15 +393,5 @@ ul.navbar-right li a {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-    
-}
-#fourth-section {
-    background-color: #181818;
-    background: url(../images/section4-bg.png) no-repeat;
-    max-height: 134px;
-    height: 134px;
-}
-
-fourth-section {
     
 }
