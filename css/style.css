@@ -10,7 +10,6 @@
 @font-face {
     font-family: "MuseoSans300";
     src: url("../fonts/MuseoSans-300_0.otf");
-    font-style: italic, oblique;
 }
 @font-face {
     font-family: "MuseoSans300Italic";
@@ -34,12 +33,12 @@
 }
 
 @font-face {
-    font-family: "MuseoSans3";
+    font-family: "MuseoSans700";
     src: url("../fonts/MuseoSans_3.otf");
 
 }
 @font-face {
-    font-family: "MuseoSans4";
+    font-family: "MuseoSans900";
     src: url("../fonts/MuseoSans_4.otf");
 }
 @font-face {
@@ -60,11 +59,14 @@ html, body {
     width: 136px;
 }
 
+ul.navbar-nav li{
+    margin-left: 7px;
+}
+
 ul.navbar-nav li a {
     height: 16px;
     line-height: 34px;
     font-family: MuseoSans300;
-    font-style: oblique;
     font-weight: normal;
     font-size: 16.26px;
 }
@@ -86,6 +88,7 @@ ul.navbar-right li a {
     border-style: solid;
 }
 
+
 #first-section {
     background-color: #f5f3da !important;
     background: url(../images/first-section-bg.png) no-repeat;
@@ -98,7 +101,7 @@ ul.navbar-right li a {
 }
 
 #first-section #quote {
-    font-family: MuseoSans4;
+    font-family: MuseoSans900;
     height: 148px;
     margin-top: 77px;
     margin-left: 40.333333%;
@@ -121,7 +124,7 @@ ul.navbar-right li a {
 }
 
 #contact p {
-    font-family: MuseoSans3;
+    font-family: MuseoSans700;
     font-size: 24px;
     line-height: 26px;
     margin-top: 69px;
@@ -134,13 +137,14 @@ ul.navbar-right li a {
 
 #contact .panel h3 {
     font-size: 24px;
-    font-family: MuseoSans3;
+    font-family: MuseoSans700;
 }
 
 #contact .panel {
     font-size: 14px;
     margin-top: 19px;
     background-color: #fefdec;
+    height: 356px;
 }
 
 #contact .panel span {
@@ -149,7 +153,7 @@ ul.navbar-right li a {
 
 .btn-custom {
     font-size: 17.19px;
-    font-family: MuseoSans3;
+    font-family: MuseoSans700;
     color: white;
     background-color: #e44c3b;
     border-radius: 5px;
@@ -169,4 +173,114 @@ ul.navbar-right li a {
 #contact {
     width: 25%;
     float: left;
+}
+
+#contact input {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+}
+
+
+#second-section {
+    background-color: #d3eed7;
+    background: url(../images/section2-bg.png);
+    height: 1526px;
+}
+
+#second-section #main-text {
+    margin-top: 60px;
+    margin-left: 23px;
+    /*word-spacing: 1;*/
+}
+
+#second-section #main-text h1 {
+    font-size: 36.46px;
+    font-family: MuseoSans700;
+}
+
+#second-section #main-text span {
+    font-size: 24px;
+    margin-left: 27px;
+}
+
+#second-section .row {
+    font-family: MuseoSans300;
+}
+
+#second-section #easy-to-use {
+    margin-top: 44px;
+}
+
+#second-section .img1 {
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+#second-section #oversee {
+    margin-top: 49px;
+}
+
+#second-section .img2 {
+    margin-left: -26px;
+}
+
+#second-section #cross-device {
+    margin-top: 72px;
+}
+
+#second-section .img3 {
+    margin-left: 19px;
+}
+
+#second-section #detailed-tracking {
+    margin-top: -6px;
+}
+
+#second-section .img4 {
+    margin-left: 29px;
+}
+
+#second-section .text1 {
+    margin-top: 87px;
+    margin-left: 50px;
+}
+
+#second-section .text1 h2 {
+    margin-left: -1px;
+}
+
+#second-section .row p {
+    font-size: 22.48px;
+    font-family: MuseoSans100;
+}
+
+#second-section .text1 p {
+    margin-left: 1px;
+}
+
+#second-section .row h2 {
+    font-size: 32px;
+}
+
+#second-section .text2 {
+    margin-top: 100px;
+    margin-left: 101px;
+}
+
+#second-section .text2 p {
+    margin-top: -3px;
+}
+
+#second-section .text3 {
+    margin-left: 136px;
+    margin-top: 74px;
+}
+
+#second-section .text3 p {
+    margin-top: -1px;
+    margin-left: -1px;
 }
