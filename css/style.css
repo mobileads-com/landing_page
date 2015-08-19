@@ -92,6 +92,7 @@ ul.navbar-right li a {
 #first-section {
     background-color: #f5f3da !important;
     background: url(../images/first-section-bg.png) no-repeat;
+    max-height: 586px;
     height: 586px;
     margin-top: -12px;
 }
@@ -188,7 +189,7 @@ ul.navbar-right li a {
 #second-section {
     background-color: #d3eed7;
     background: url(../images/section2-bg.png);
-    height: 1526px;
+    max-height: 1526px;
 }
 
 #second-section #main-text {
@@ -241,7 +242,8 @@ ul.navbar-right li a {
 }
 
 #second-section .img4 {
-    margin-left: 29px;
+    margin-left: -46px;
+
 }
 
 #second-section .text1 {
@@ -283,4 +285,68 @@ ul.navbar-right li a {
 #second-section .text3 p {
     margin-top: -1px;
     margin-left: -1px;
+}
+
+#second-section .first-col {
+    margin-left: -43%;
+    margin-top: 73px;
+}
+
+#third-section {
+    max-height: 854px;
+    background-color: white;
+    /*background: url(../images/section3-bg2.png) no-repeat;*/
+}
+
+#third-section h1 {
+    font-size: 36.46px;
+    font-family: MuseoSans700;
+}
+
+#third-section .main-quote {
+    margin-top: 64px;
+    margin-left: 40px;
+}
+
+#third-section .main-quote .first {
+    margin-top: 13px;
+    margin-left: 23px;
+}
+
+#third-section .main-quote .second {
+    margin-top: -18px;
+    margin-left: 19px;
+}
+
+#third-section .main {
+    margin-left: 40px;
+    margin-top: 53px;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
 }
