@@ -468,10 +468,32 @@ ul.navbar-right li a {
     background-color: #f0efd6;
 }
 
+#sixth-section .main-quote {
+    margin-top: 56px;
+    margin-left: 31px;
+}
+
+#sixth-section .main-quote h1, #seventh-section .main-quote h1 {
+    font-size: 36.46px;
+    font-family: MuseoSans700;
+}
+
 #seventh-section {
     max-height: 995px;
     height: 995px;
     background-color: #ffffff;
+}
+
+#seventh-section .main-quote {
+    margin-top: 71px;
+    margin-left: 38px;
+}
+
+#seventh-section .main-quote .first {
+    font-family: MuseoSans300;
+    font-size: 24px;
+    margin-top: 14px;
+    margin-left: 22px;
 }
 
 
