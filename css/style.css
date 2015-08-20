@@ -416,6 +416,23 @@ ul.navbar-right li a {
     padding-left: 4px;
 }
 
+#fifth-section .images div.button:hover{
+    cursor: pointer;
+    background-color: #e44c3b;
+}
+
+#fifth-section .images div.button a{
+    text-decoration: none;
+}
+
+#fifth-section .images div.button:hover a span{
+    color: #ffffff;
+}
+
+#fifth-section .images div.button a span:hover {
+    color: #ffffff;
+}
+
 #fifth-section .images #button1 {
     margin-left: 99px;
 }
@@ -426,6 +443,23 @@ ul.navbar-right li a {
 
 #fifth-section .images #button3 {
     margin-left: 73px;
+}
+
+#fifth-section .lower-quote {
+    margin-top: 463px;
+    margin-left: 72px;
+}
+
+#fifth-section .lower-quote h2 {
+    font-size: 27.58px;
+    font-family: MuseoSans700;
+}
+
+#fifth-section .lower-quote .first {
+    margin-top: 10px;
+    margin-left: -23px; 
+    font-family: MuseoSans100;
+    font-size: 21.74px;
 }
 
 #sixth-section {
