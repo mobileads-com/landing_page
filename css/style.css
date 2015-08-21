@@ -525,6 +525,166 @@ ul.navbar-right li a {
     margin-left: 22px;
 }
 
+/* Block - Brand */
+#seventh-section .use{
+    text-align:center;
+    margin:0 auto;
+    width:60%;
+}
+#seventh-section .use.small{
+    width:62%;
+}
+#seventh-section .use.small2{
+    width:30%;
+}
+#seventh-section .use a{
+    width: auto;
+    height: 133px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    transition:all 0.3s;
+}
+#seventh-section .use.small a img{
+    margin-right:15px;
+}
+#seventh-section .use a img{
+    opacity:0;
+}
+#seventh-section a.brand1 {
+    background: url('../images/agency/brand_01b.jpg') no-repeat center center;
+}
+#seventh-section a.brand2 {
+    background: url('../images/agency/brand_02c.jpg') no-repeat center center;
+}
+#seventh-section a.brand3 {
+    background: url('../images/agency/brand_03b.jpg') no-repeat center center;
+}
+#seventh-section a.brand4 {
+    background: url('../images/agency/brand_04b.jpg') no-repeat center center;
+}
+#seventh-section a.brand5 {
+    background: url('../images/agency/brand_05b.jpg') no-repeat center center;
+}
+#seventh-section a.brand6 {
+    background: url('../images/agency/brand_06b.jpg') no-repeat center center;
+}
+#seventh-section a.brand7 {
+    background: url('../images/agency/brand_07.jpg') no-repeat center center;
+}
+#seventh-section a.brand8 {
+    background: url('../images/agency/brand_08b.jpg') no-repeat center center;
+}
+#seventh-section a.brand9 {
+    background: url('../images/agency/brand_09b.jpg') no-repeat center center;
+}
+#seventh-section a.brand10 {
+    background: url('../images/agency/brand_10b.jpg') no-repeat center center;
+}
+#seventh-section a.brand11 {
+    background: url('../images/agency/brand_11b.jpg') no-repeat center center;
+}
+#seventh-section a.brand12 {
+    background: url('../images/agency/brand_12.jpg') no-repeat center center;
+}
+#seventh-section a.brand13 {
+    background: url('../images/agency/brand_13.jpg') no-repeat center center;
+}
+#seventh-section a.brand14 {
+    background: url('../images/agency/brand_14.jpg') no-repeat center center;
+}
+#seventh-section a.brand15 {
+    background: url('../images/agency/brand_15.jpg') no-repeat center center;
+}
+#seventh-section a.brand16 {
+    background: url('../images/agency/brand_16.jpg') no-repeat center center;
+}
+#seventh-section a.brand17 {
+    background: url('../images/agency/brand_17b.jpg') no-repeat center center;
+}
+#seventh-section a.brand18 {
+    background: url('../images/agency/brand_18b.jpg') no-repeat center center;
+}
+#seventh-section a.brand19 {
+    background: url('../images/agency/brand_19b.jpg') no-repeat center center;
+}
+#seventh-section a.brand20 {
+    background: url('../images/agency/brand_20b.jpg') no-repeat center center;
+}
+#seventh-section a.brand21 {
+    background: url('../images/agency/brand_21b.jpg') no-repeat center center;
+}
+#seventh-section a.brand22 {
+    background: url('../images/agency/brand_22b.jpg') no-repeat center center;
+}
+
+#seventh-section a.brand1:hover{
+    background: url('../images/agency/brand-color_01b.jpg') no-repeat center center;
+}
+#seventh-section a.brand2:hover{
+    background: url('../images/agency/brand-color_02c.jpg') no-repeat center center;
+}
+#seventh-section a.brand3:hover{
+    background: url('../images/agency/brand-color_03b.jpg') no-repeat center center;
+}
+#seventh-section a.brand4:hover{
+    background: url('../images/agency/brand-color_04b.jpg') no-repeat center center;
+}
+#seventh-section a.brand5:hover{
+    background: url('../images/agency/brand-color_05b.jpg') no-repeat center center;
+}
+#seventh-section a.brand6:hover{
+    background: url('../images/agency/brand-color_06b.jpg') no-repeat center center;
+}
+#seventh-section a.brand7:hover{
+    background: url('../images/agency/brand-color_07.jpg') no-repeat center center;
+}
+#seventh-section a.brand8:hover{
+    background: url('../images/agency/brand-color_08b.jpg') no-repeat center center;
+}
+#seventh-section a.brand9:hover{
+    background: url('../images/agency/brand-color_09b.jpg') no-repeat center center;
+}
+#seventh-section a.brand10:hover{
+    background: url('../images/agency/brand-color_10b.jpg') no-repeat center center;
+}
+#seventh-section a.brand11:hover{
+    background: url('../images/agency/brand-color_11b.jpg') no-repeat center center;
+}
+#seventh-section a.brand12:hover{
+    background: url('../images/agency/brand-color_12.jpg') no-repeat center center;
+}
+#seventh-section a.brand13:hover{
+    background: url('../images/agency/brand-color_13.jpg') no-repeat center center;
+}
+#seventh-section a.brand14:hover{
+    background: url('../images/agency/brand-color_14.jpg') no-repeat center center;
+}
+#seventh-section a.brand15:hover{
+    background: url('../images/agency/brand-color_15.jpg') no-repeat center center;
+}
+#seventh-section a.brand16:hover{
+    background: url('../images/agency/brand-color_16.jpg') no-repeat center center;
+}
+#seventh-section a.brand17:hover{
+    background: url('../images/agency/brand-color_17b.jpg') no-repeat center center;
+}
+#seventh-section a.brand18:hover{
+    background: url('../images/agency/brand-color_18b.jpg') no-repeat center center;
+}
+#seventh-section a.brand19:hover{
+    background: url('../images/agency/brand-color_19b.jpg') no-repeat center center;
+}
+#seventh-section a.brand20:hover{
+    background: url('../images/agency/brand-color_20b.jpg') no-repeat center center;
+}
+#seventh-section a.brand21:hover{
+    background: url('../images/agency/brand-color_21b.jpg') no-repeat center center;
+}
+#seventh-section a.brand22:hover{
+    background: url('../images/agency/brand-color_22b.jpg') no-repeat center center;
+}
+
 #seventh-section #traffic-partners h2 {
     font-size: 32px;
     margin-top: 81px;
@@ -532,20 +692,20 @@ ul.navbar-right li a {
 }
 
 #seventh-section #partners {
-    margin-top: 23px;
+    margin-top: 9px;
     margin-left: 86px;
     text-align: center;
 }
 
 #seventh-section #trading-desk h2 {
     font-size: 32px;
-    margin-top: 89px;
+    margin-top: 291px;
     margin-left: 82px;
 }
 
 #seventh-section #trading-desk #dsp {
-    margin-top: 37px;
-    margin-left: 126px;
+    margin-top: 18px;
+    margin-left: 104px;
     text-align: center;
 }
 
