@@ -746,6 +746,7 @@ ul.navbar-right li a {
 
 #ninth-section #footer-ul2 li{
     display: inline;
+    margin-left: 10px;
 }
 
 #footer-ul2 {
@@ -756,4 +757,7 @@ ul.navbar-right li a {
     list-style-type: none;
     margin-left: 78px;
     margin-top: 32px;
+}
+
+#footer-ul2 .li5{
 }
