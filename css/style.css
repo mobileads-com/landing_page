@@ -46,6 +46,34 @@
     src: url("../fonts/MuseoSans_500_Italic.otf");
 }
 
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+
+
 html, body {
     font-family: MuseoSans100;
     font-weight: normal;
@@ -105,7 +133,7 @@ ul.navbar-right li a {
     font-family: MuseoSans900;
     height: 148px;
     margin-top: 77px;
-    margin-left: 40.333333%;
+    margin-left: 39.7%;
     width: 31.333333%;
 
 }
@@ -115,38 +143,53 @@ ul.navbar-right li a {
     font-size: 56.06px;
 }
 
-#first-section #quote span {
+#first-section #quote p {
     font-family: MuseoSans100;
     font-size: 20.57px;
+    margin-top: -14px;
+    margin-left: 7px;
+    line-height: 27px;
 }
 
 #first-section img {
-    margin-top: 42px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
-#contact p {
+#first-section [type="checkbox"] {
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+#contact p.first {
     font-family: MuseoSans700;
     font-size: 24px;
     line-height: 26px;
     margin-top: 69px;
+    margin-left: 9px;
 }
 
-#contact span {
+#contact p.second {
     font-size: 12.21px;
     font-family: MuseoSans100;
+    margin-left: 9px
 }
 
 #contact .panel h3 {
     font-size: 24px;
     font-family: MuseoSans700;
+    margin-top: 17px;
+    margin-right: -9px;
 }
 
 #contact .panel {
     font-size: 14px;
-    margin-top: 19px;
+    margin-top: 6px;
+    margin-left: 8px;
     background-color: #fefdec;
     height: 356px;
 }
+
 
 #contact .panel span {
     font-size: 12.42px;
@@ -496,31 +539,75 @@ ul.navbar-right li a {
     margin-left: 22px;
 }
 
-
-/*==========  Non-Mobile First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+#seventh-section #traffic-partners h2 {
+    font-size: 32px;
+    margin-top: 81px;
+    margin-left: 82px;
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+#seventh-section #partners {
+    margin-top: 23px;
+    margin-left: 86px;
+    text-align: center;
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
+#seventh-section #trading-desk h2 {
+    font-size: 32px;
+    margin-top: 89px;
+    margin-left: 82px;
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
+#seventh-section #trading-desk #dsp {
+    margin-top: 37px;
+    margin-left: 126px;
+    text-align: center;
 }
 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-    
+#ninth-section {
+    max-height: 121px;
+    height: 121px;
+    background-color: black;
+    margin-top: -2px;
+    font-family: MuseoSans300;
+    color: #fefefe;
 }
 
+#ninth-section #footer-ul {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 36px;
+    margin-top: 23px;
+}
+
+#ninth-section #footer-ul li {
+    display: inline;
+    margin-left: 42px;
+}
+
+
+#ninth-section ul#footer-ul li a, #ninth-section ul#footer-ul2 li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+#ninth-section ul#footer-ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8c8c8c;
+}
+
+#ninth-section #footer-ul2 li{
+    display: inline;
+}
+
+#footer-ul2 {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 78px;
+    margin-top: 32px;
+}
