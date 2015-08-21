@@ -242,14 +242,19 @@ ul.navbar-right li a {
 }
 
 #second-section #main-text {
-    margin-top: 60px;
-    margin-left: 23px;
+    margin-top: 53px;
+    margin-left: 55px;
     /*word-spacing: 1;*/
 }
 
-#second-section #main-text span {
+#second-section #main-text .section-title span {
+    margin: 10px;
+}
+
+#second-section #main-text .first {
     font-size: 24px;
-    margin-left: 27px;
+    margin-top: -8px;
+    margin-right: 10px;
 }
 
 #second-section .row {
