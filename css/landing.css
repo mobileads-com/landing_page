@@ -1,0 +1,65 @@
+@media only screen and (max-width:1196px) {
+
+    #contact {
+        width: 25%;
+        margin-left: -0px;
+    }
+
+    #first-section #quote {
+        margin-left: 40.333333%;
+    }
+
+    ul.navbar-nav li {
+        margin-left: -25px;
+    }
+
+    #contact .panel span {
+        font-size: 10.42px;
+    }
+
+    #contact .panel {
+        height: 364px;
+    }
+
+    #contact .panel #free {
+        font-size: 11.42px;
+        margin-top: -13px;
+    }
+
+}
+
+@media only screen and (max-width:1181px) {
+
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 360px;
+    }
+
+    #seventh-section #partners {
+        margin-left: 86px;
+    }
+
+    #seventh-section .use {
+        width: 70%;
+        margin-left: 1
+        margin: 0px auto;
+    }
+
+}
+
+@media only screen and (max-width:1172px) {
+
+    #seventh-section .use.small {
+        width: 70%;
+    }
+
+    #first-section #quote {
+        margin-top: 94px;
+        margin-left: 39.7%;
+        width: 33.333333%;
+    }
+
+    #second-section {
+        margin-top: -6px;
+    }
+
+}

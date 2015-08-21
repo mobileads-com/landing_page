@@ -48,29 +48,45 @@
 
 /*==========  Non-Mobile First Method  ==========*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+/* XtraLarge Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+   #indicator:after {
+        content:"xlg";
+    }
+}
 
+@media only screen and (max-width : 1200px) {
+    #indicator:after {
+        content:"lg";
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    #indicator:after {
+        content:"md";
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    #indicator:after {
+        content:"sm";
+    }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
+    #indicator:after {
+        content:"xs";
+    }
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-    
+    #indicator {
+        content:lg;
+    }
 }
 
 
@@ -197,7 +213,7 @@ ul.navbar-right li a {
 }
 
 
-#contact .panel span {
+#contact .panel #free {
     font-size: 12.42px;
 }
 

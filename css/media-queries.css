@@ -1,29 +1,14 @@
-@media only screen and (max-width:1196px) {
+@media only screen and (max-width:1172px) {
 
-	#contact {
-		width: 25%;
-		max-resolution: res;
-		margin-left: -0px;
-		m    margin-left: -25pxargin-left
+	#seventh-section .use.small {
+		width: 70%;
 	}
 
 	#first-section #quote {
-		margin-left: 40.333333%;
-	}
-
-	ul.navbar-nav li {
-		margin-left: -25px;
-	}
-
-	#contact .panel span {
-		font-size: 10.42px;
+		margin-left: 40.7%;
 	}
 
 }
-@media only screen and (max-width:1172px) {
-
-	#second-section {
-		margin-top: -6px;
-	}
+@media only screen and (max-width:1142px) {
 
 }
