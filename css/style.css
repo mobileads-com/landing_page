@@ -277,6 +277,52 @@ ul.navbar-right li a {
     background-color: #f0efd6;
 }
 
+#sixth-section .main-quote {
+    margin-top: 55px;
+    margin-left: 41px;
+}
+
+/*TO be added on media query*/
+
+#sixth-section .carousel-inner {
+    margin-top: 40px;
+}
+
+.carousel-control.left,.carousel-control.right {
+    background-color: none;
+    background-image: none;
+}
+
+.carousel-text {
+    font-family: MuseoSans100;
+    font-size: 15.5px;
+    max-width: 750px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #696969;
+    padding-bottom: 85px;
+    margin-right: 17px;
+
+}
+
+.carousel-text p {
+    padding-top: 36px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.carousel-text img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+#sixth-section, .carousel-control {
+    top: 70px;
+    color: #c1c09c;
+    width: 22%;
+}
+
 #seventh-section {
     background-color: #ffffff;
 }
