@@ -271,9 +271,7 @@ ul.navbar-right li a {
     font-size: 21.74px;
 }
 
-#sixth-section {
-    max-height: 411px;
-    height: 411px;
+#sixth-section { 
     background-color: #f0efd6;
 }
 
@@ -317,7 +315,7 @@ ul.navbar-right li a {
     margin-right: 25px;
 }
 
-#sixth-section, .carousel-control {
+#sixth-section .carousel-control {
     top: 70px;
     color: #c1c09c;
     width: 22%;
