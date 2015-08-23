@@ -321,6 +321,10 @@ ul.navbar-right li a {
     width: 22%;
 }
 
+#sixth-section .outer-line {
+    border: 1px #ffffff;
+}
+
 #seventh-section {
     background-color: #ffffff;
 }
