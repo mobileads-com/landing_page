@@ -233,6 +233,30 @@
         margin-top: 73px;
     }
 
+    #third-section {
+        max-height: 855px;
+        height: 855px;
+    }
+
+    #third-section .main-quote {
+        margin-top: 64px;
+        margin-left: 40px;
+    }
+
+    #third-section .main-quote .first {
+        margin-top: 13px;
+        margin-left: 23px;
+    }
+
+    #third-section .main-quote .second {
+        margin-top: -18px;
+        margin-left: 19px;
+    }
+
+    #third-section .main img {
+        margin-left: 40px;
+        margin-top: 53px;
+    }
 
     #fourth-section, #eighth-section {
         max-height: 134px;
@@ -538,9 +562,10 @@
         text-align: center;
     }
 
-    #fifth-section img {
-        margin-top: 20px;
+/*    #third-section {
+        background: url(../images/third-section-bg.png) no-repeat;
     }
+*/
 
     #fourth-section h1, #eighth-section h1 {
         font-size: 26px;
@@ -554,6 +579,11 @@
         font-size: 15.55px;
         margin-bottom: 11px;
     }
+
+    #fifth-section img {
+        margin-top: 20px;
+    }
+
 
 
 }

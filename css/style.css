@@ -198,30 +198,7 @@ ul.navbar-right li a {
 }
 
 #third-section {
-    max-height: 855px;
-    height: 855px;
     background-color: white;
-    /*background: url(../images/section3-bg2.png) no-repeat;*/
-}
-
-#third-section .main-quote {
-    margin-top: 64px;
-    margin-left: 40px;
-}
-
-#third-section .main-quote .first {
-    margin-top: 13px;
-    margin-left: 23px;
-}
-
-#third-section .main-quote .second {
-    margin-top: -18px;
-    margin-left: 19px;
-}
-
-#third-section .main img {
-    margin-left: 40px;
-    margin-top: 53px;
 }
 
 #fourth-section, #eighth-section {
