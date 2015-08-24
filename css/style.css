@@ -52,6 +52,7 @@ html, body {
     font-style: normal;
 }
 
+
 .section-title {
     font-size: 36.46px;
     font-family: MuseoSans700;
@@ -342,14 +343,14 @@ ul.navbar-right li a {
     font-size: 32px;
 }
 
-#ninth-section {
+#footer-section {
     background-color: black;
     margin-top: -2px;
     font-family: MuseoSans300;
     color: #fefefe;
 }
 
-#ninth-section #footer-ul {
+#footer-section #footer-ul {
     font-size: 14px;
     list-style: none;
     margin: 0;
@@ -357,22 +358,22 @@ ul.navbar-right li a {
     list-style-type: none;
 }
 
-#ninth-section #footer-ul li {
+#footer-section #footer-ul li {
     display: inline;
 }
 
 
-#ninth-section ul#footer-ul li a, #ninth-section ul#footer-ul2 li a {
+#footer-section ul#footer-ul li a, #footer-section ul#footer-ul2 li a {
     text-decoration: none;
     color: #fefefe;
 }
 
-#ninth-section ul#footer-ul li a:hover {
+#footer-section ul#footer-ul li a:hover {
     text-decoration: underline;
     text-decoration-color: #8c8c8c;
 }
 
-#ninth-section #footer-ul2 li{
+#footer-section #footer-ul2 li{
     display: inline;
 }
 
@@ -387,3 +388,133 @@ ul.navbar-right li a {
 #footer-ul2 .li5{
 }
 
+
+/*FOOTER and NAVBAR*/
+
+@media only screen and (max-width:1196px) and (min-width: 992px) {
+    ul.navbar-nav li {
+        margin-left: -25px;
+    }
+}
+
+@media only screen and (max-width : 1500px) and (min-width: 992px) {
+    #footer-section {
+        max-height: 121px;
+        height: 121px;
+        margin-top: -2px;
+    }
+
+    #footer-section #footer-ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 36px;
+        margin-top: 23px;
+    }
+
+    #footer-section #footer-ul li {
+        margin-left: 42px;
+    }
+
+    #footer-section ul#footer-ul li a:hover {
+        text-decoration-color: #8c8c8c;
+    }
+
+    #footer-section #footer-ul2 li{
+        margin-left: 10px;
+    }
+
+    #footer-ul2 {
+        margin-left: 78px;
+        margin-top: 32px;
+    }
+}
+
+
+@media only screen and (max-width : 992px) and (min-width:240px) {
+    #footer-section #footer-ul {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #footer-section #footer-ul li {
+        margin-left: 38px;
+    }
+
+    #footer-section a {
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width : 992px) and (min-width:240px) {
+
+    .navbar-toggle {
+        border: 0px;
+    }
+
+    .navbar-toggle:hover {
+        background-color: #ffffff;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 25px;
+        height: 5px;
+        border-radius: 4px;
+
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #E44C3B;
+    }
+
+}
+
+
+/*NAVBAR COLLAPSE ON MD*/
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    ul.nav.navbar-nav.navbar-left {
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 50px;
+    }
+
+    ul.navbar-nav li {
+        margin-top: 10px;
+    }
+}
