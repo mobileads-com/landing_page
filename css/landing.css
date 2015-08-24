@@ -136,9 +136,9 @@
     }
 
     #contact {
-        width: 25%;
+        width: 26%;
         float: left;
-        text-align: center;
+        text-align: left;
     }
 
     #contact input {
@@ -674,6 +674,36 @@
 
 }
 
+/*MD ONLY*/
+@media (max-width: 1200px) and (min-width: 991px) {
+
+    #first-section #quote, #first-section #contact center {
+        text-align: left;
+    }
+
+    #first-section #quote {
+        margin-top: 26px;
+        margin-left: 28.7%;
+        margin-right: 25px;
+        width: 37.333333%;
+    }
+
+    #contact {
+        margin-top: -22px;
+        width: 31%;
+    }
+
+    #first-section {
+        background: url(../images/section1-md-bg.png) no-repeat;
+    }
+
+    #second-section {
+        margin-top: -23px;
+    }
+
+
+}
+
 /*NAVBAR COLLAPSE ON MD*/
 
 @media (max-width: 991px) {
@@ -717,5 +747,9 @@
         background-color: #fff;
         padding-bottom: 50px;
     }
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
 
 }
