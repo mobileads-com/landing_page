@@ -1,0 +1,497 @@
+/* 
+* Import fonts
+*/
+
+@font-face {
+	font-family: "MuseoSans100";
+	src: url("../fonts/MuseoSans-100_0.otf");
+}
+@font-face {
+	font-family: "MuseoSans100Italic";
+	src: url("../fonts/MuseoSans-100Italic.otf");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "MuseoSans300";
+	src: url("../fonts/MuseoSans-300_0.otf");
+}
+@font-face {
+	font-family: "MuseoSans300Italic";
+	src: url("../fonts/MuseoSans-300Italic.otf");
+}
+
+@font-face {
+	font-family: "MuseoSans700Italic";
+	src: url("../fonts/MuseoSans-700Italic.otf");
+}
+@font-face {
+	font-family: "MuseoSans900Italic";
+	src: url("../fonts/MuseoSans-900Italic.otf");
+}
+
+@font-face {
+	font-family: "MuseoSans2";
+	src: url("../fonts/MuseoSans_2.otf");
+	font-weight: bold;
+	font-style: italic, oblique;
+}
+
+@font-face {
+	font-family: "MuseoSans700";
+	src: url("../fonts/MuseoSans_3.otf");
+
+}
+@font-face {
+	font-family: "MuseoSans900";
+	src: url("../fonts/MuseoSans_4.otf");
+}
+@font-face {
+	font-family: "MuseoSans500Italic";
+	src: url("../fonts/MuseoSans_500_Italic.otf");
+}
+
+@font-face {
+	font-family: "AvenirLTStd-Heavy";
+	src: url("../fonts/AvenirLTStd-Heavy.woff");
+}
+
+@font-face {
+	font-family: "AvenirLTStd-Black";
+	src: url("../fonts/AvenirLTStd-Black.woff");
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* XtraLarge Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+	#indicator:after {
+		content:"xlg";
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	#indicator:after {
+		content:"lg";
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#indicator:after {
+		content:"md";
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#indicator:after {
+		content:"sm";
+	}
+
+	#first-section {
+	    background-color: #f5f3da !important;
+	    background: url(../images/customad/bg-section-1.png) no-repeat;
+	    height: 470.63px;
+	    max-height: 470.63px;
+	    margin-top: 50px;
+	}
+
+	#main-quote{
+	margin-top: 110px;
+	}
+
+	#main-quote h1{
+		font-family: MuseoSans900;
+		color: #e44c3b;
+		font-weight: bold;
+	    	font-size: 54.97px;
+	    	text-align: center;
+	    	margin-top: -60px
+	}
+
+	#main-quote p{
+	    font-family: MuseoSans100;
+	    font-size: 32.91px;
+	    margin-top: -14px;
+	    margin-left: 7px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+
+	#contact{
+		margin-top: 50px;
+	}
+
+	.contact-title{
+		font-family: AvenirLTStd-Heavy;
+		font-size: 24px;
+	}
+
+
+	#second-section-quote{
+		margin-top: 150px;
+	}
+
+	#second-section-quote h2{
+		font-family: MuseoSans700;
+		font-size: 36.46px;
+		text-align: center;
+		margin-top: -130px;
+	}
+
+	#second-section-quote p{
+		font-size: 22px;
+		text-align: center;
+	}
+
+	#second-section .quote-subtitle{
+		font-family: MuseoSans700;
+		font-size: 24px;
+		color: #696969;
+	}
+
+	#second-section .quote-text{
+		font-family: MuseoSans300;
+		font-size: 24px;
+		color: #696969;
+	}
+
+
+
+	#fifth-section-quote h4{
+		margin-top: 40px;
+		font-family: MuseoSans700;
+		font-size: 25.09px;
+		text-align: center;
+	}
+
+	#fifth-section-quote p{
+		font-family: MuseoSans300;
+		font-size: 24px;
+		color: #696969;
+		text-align: center;
+	}
+
+	#fifth-section button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#indicator:after {
+		content:"xs";
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	#indicator {
+		content:lg;
+	}
+}
+
+
+html, body {
+    font-family: MuseoSans100;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-red {
+    color: #e44c3b;
+}
+
+.btn-custom {
+    font-size: 17.19px;
+    font-family: MuseoSans700;
+    color: white;
+    background-color: #e44c3b;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0.00px rgba(2, 2, 2, 0.71);
+}
+
+.btn-custom:hover {
+    background-color: #bf3a2b;
+    color: white;
+}
+
+.text-strong{
+	font-weight: bold;
+}
+
+
+#navbar {
+    background-color: #ffffff;
+    border-color: #dadada;
+    border-style: solid;
+    border-width: 1px;
+    height: 58px;
+}
+
+#navbar-logo{
+	height: 29px;
+	left: 79px;
+	top: 14px;
+	width: 136px;
+}
+
+ul.navbar-nav li a {
+    height: 16px;
+    line-height: 34px;
+    font-family: MuseoSans300;
+    font-weight: normal;
+    font-size: 16.26px;
+}
+
+ul.navbar-left li a {
+    margin-left: 20px;
+    color: #696969;
+}
+
+ul.navbar-right li a {
+    color: #e44c3b !important;
+}
+
+.section-header{
+	font-family: MuseoSans700;
+	font-size: 36.46px;
+}
+
+.section-subheader{
+	font-family: MuseoSans300;
+	font-size: 24px;
+}
+
+
+#first-section {
+    background-color: #f5f3da !important;
+    background: url(../images/customad/bg-section-1.png) no-repeat;
+    height: 470.63px;
+    max-height: 470.63px;
+    margin-top: 50px;
+}
+
+#first-section .img-responsive{
+	margin-top: 50px;
+}
+
+/*#main-quote{
+	margin-top: 110px;
+}
+
+#main-quote h1{
+	font-family: MuseoSans900;
+	color: #e44c3b;
+	font-weight: bold;
+    	font-size: 54.97px;
+    	margin-left: -70px;
+}
+
+#main-quote p{
+    font-family: MuseoSans100;
+    font-size: 32.91px;
+    margin-top: -14px;
+    margin-left: 7px;
+    line-height: 27px;
+    margin-left: -70px;
+}
+
+#contact{
+	margin-top: 50px;
+}
+
+.contact-title{
+	font-family: AvenirLTStd-Heavy;
+	font-size: 24px;
+}*/
+
+#second-section{
+	background: url(../images/customad/bg-section-2.png) no-repeat;
+	background-size: cover;
+	height: 600px;
+	max-height: 600px;
+}
+
+/*#second-section-quote{
+	margin-top: 150px;
+}
+
+#second-section-quote h2{
+	font-family: MuseoSans700;
+	font-size: 36.46px;
+}
+
+#second-section-quote p{
+	font-size: 22px;
+}
+
+#second-section .quote-subtitle{
+	font-family: MuseoSans700;
+	font-size: 24px;
+	color: #696969;
+}
+
+#second-section .quote-text{
+	font-family: MuseoSans300;
+	font-size: 24px;
+	color: #696969;
+}*/
+
+#second-section .img-responsive{
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#third-section{
+	background: url(../images/customad/bg-section-3.png) no-repeat;
+	padding-top: 30px;
+	height: 545px;
+}
+
+#third-section .image-label{
+	font-size: 24px;
+	font-family: AvenirLTStd-Heavy;
+}
+
+#fourth-section{
+	margin-top:40px;
+}
+
+#fifth-section{
+	background: url(../images/customad/bg-section-5.png) no-repeat;
+	background-size: cover;
+	height: 699.80px;
+	max-height: 699.80px;
+	padding-top: 40px;
+/*	font-family: MuseoSans700;*/
+}
+
+#fifth-section-quote h4{
+	margin-top: 40px;
+	font-family: MuseoSans700;
+	font-size: 25.09px;
+}
+
+#fifth-section-quote p{
+	font-family: MuseoSans300;
+	font-size: 24px;
+	color: #696969;
+}
+
+#sixth-section{
+	/*background: url(../images/bg-section-6.png) no-repeat;*/
+	background-color: #ffffff;
+	background-size: cover;
+	height: 928.79px;
+	max-height: 928.79px;
+}
+
+#sixth-section .bottom-text{
+	font-family: MuseoSans300;
+	font-size: 30px;
+	margin-left: 30px;
+   	margin-top: 50px;
+}
+
+#seventh-section{
+	background: url(../images/customad/bg-section-6.png) no-repeat;
+	background-size: cover;
+	height: 676px;
+	max-height: 676px;
+	padding-top: 40px;
+}
+
+.arrow{
+	margin-top: 90%;
+}
+
+.arrow-left{
+	float: right
+}
+
+#fourth-section, #eight-section {
+    background-color: #181818;
+    background: url(../images/customad/section4-bg.png) no-repeat;
+    max-height: 134px;
+    height: 134px;
+    background-size: cover;
+}
+
+#fourth-section .main-quote, #eight-section .main-quote {
+    margin-left: 410px;
+    margin-top: 26px;
+}
+
+#fourth-section h1{
+	margin-left: 130px;
+}
+
+#fourth-section h1, #eight-section h1 {
+    font-size: 29.54px;
+    font-family: MuseoSans700;
+}
+
+#fourth-section button, #eight-section button {
+    width: 204px;
+    height: 41px;
+    margin-top: 5px;
+    margin-left: 252px;
+    font-size: 18.55px;
+}
+
+
+#ninth-section {
+    max-height: 121px;
+    height: 121px;
+    background-color: black;
+    margin-top: -2px;
+    font-family: MuseoSans300;
+    color: #fefefe;
+}
+
+#ninth-section #footer-ul {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 36px;
+    margin-top: 23px;
+}
+
+#ninth-section #footer-ul li {
+    display: inline;
+    margin-left: 42px;
+}
+
+
+#ninth-section ul#footer-ul li a, #ninth-section ul#footer-ul2 li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+#ninth-section ul#footer-ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8c8c8c;
+}
+
+#ninth-section #footer-ul2 li{
+    display: inline;
+    margin-left: 10px;
+}
+
+#footer-ul2 {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 78px;
+    margin-top: 32px;
+}
+
