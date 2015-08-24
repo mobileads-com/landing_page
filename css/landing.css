@@ -599,6 +599,26 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) and (min-width:240px) {
 
+    .navbar-toggle {
+        border: 0px;
+    }
+
+    .navbar-toggle:hover {
+        background-color: #ffffff;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 25px;
+        height: 5px;
+        border-radius: 4px;
+
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #E44C3B;
+    }
+
     #first-section #quote {
         text-align: center;
     }
