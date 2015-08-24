@@ -659,9 +659,15 @@
     #seventh-section img {
         width: 150px;
     }
+    
+    #ninth-section #footer-ul {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 
-
-
+    #ninth-section #footer-ul li {
+        margin-left: 38px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
