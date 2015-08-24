@@ -553,6 +553,41 @@
         margin-left: 104px;
     }
 
+    #ninth-section {
+        max-height: 121px;
+        height: 121px;
+        margin-top: -2px;
+    }
+
+    #ninth-section #footer-ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 36px;
+        margin-top: 23px;
+    }
+
+    #ninth-section #footer-ul li {
+        margin-left: 42px;
+    }
+
+    #ninth-section ul#footer-ul li a:hover {
+        text-decoration-color: #8c8c8c;
+    }
+
+    #ninth-section #footer-ul2 li{
+        margin-left: 10px;
+    }
+
+    #footer-ul2 {
+        margin-left: 78px;
+        margin-top: 32px;
+    }
+
+    #footer-ul2 .li5{
+    }
+
+
+
 
 }
 
@@ -568,10 +603,9 @@
         text-align: center;
     }
 
-/*    #third-section {
-        background: url(../images/third-section-bg.png) no-repeat;
+    #third-section .main img {
+        margin-bottom: 30px;
     }
-*/
 
     #fourth-section h1, #eighth-section h1 {
         font-size: 26px;
