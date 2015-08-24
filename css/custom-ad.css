@@ -63,85 +63,130 @@
 /*==========  Non-Mobile First Method  ==========*/
 
 /* XtraLarge Devices, Wide Screens */
-@media only screen and (max-width : 1500px) {
-	#indicator:after {
-		content:"xlg";
-	}
-}
-
-@media only screen and (max-width : 1200px) {
-	#indicator:after {
-		content:"lg";
-	}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	#indicator:after {
-		content:"md";
-	}
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	#indicator:after {
-		content:"sm";
+@media only screen and (max-width : 1500px) and(min-width: 992px) {
+	#first-section #section-quote-container{
+		margin-top: 110px;
 	}
 
-	#first-section {
-	    background-color: #f5f3da !important;
-	    background: url(../images/customad/bg-section-1.png) no-repeat;
-	    height: 470.63px;
-	    max-height: 470.63px;
-	    margin-top: 50px;
+	#first-section #section-contact-container{
+		margin-top: 50px;
 	}
 
-	#main-quote{
-	margin-top: 110px;
-	}
-
-	#main-quote h1{
+	#first-section #section-quote-container h1{
 		font-family: MuseoSans900;
 		color: #e44c3b;
 		font-weight: bold;
 	    	font-size: 54.97px;
-	    	text-align: center;
-	    	margin-top: -60px
+	    	margin-left: -70px;
 	}
 
-	#main-quote p{
+	#first-section #section-quote-container p{
 	    font-family: MuseoSans100;
 	    font-size: 32.91px;
 	    margin-top: -14px;
 	    margin-left: 7px;
 	    line-height: 27px;
-	    text-align: center;
+	    margin-left: -70px;
 	}
 
-	#contact{
-		margin-top: 50px;
-	}
-
-	.contact-title{
+	#first-section .contact-title{
 		font-family: AvenirLTStd-Heavy;
 		font-size: 24px;
 	}
 
+	#fifth-section{
+		height: 699.80px;
+		max-height: 699.80px;
+	}
 
-	#second-section-quote{
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section li{
+		padding-bottom: 18px;
+	}
+
+	#sixth-section .right{
+		float: right !important;
+	}
+
+	#sixth-section .right img{
+		margin-left: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .right span{
+		margin-right: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .left img{
+		float:right;
+		clear:right;
+		margin-right: -35px;
+	}
+
+	#sixth-section .left span{
+		margin-right: -15px;
+		float:right;
+		clear:right;
+	}
+	#sixth-section li span{
+		padding-bottom: 10px;
+	}
+}
+
+/*@media only screen and (max-width : 1200px) {
+
+}*/
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1224px) {
+	#first-section #section-quote-container{
+		margin-top: 110px;
+	}
+
+	#first-section #section-contact-container{
+		margin-top: 50px;
+	}
+
+	#first-section #section-quote-container h1{
+		font-family: MuseoSans900;
+		color: #e44c3b;
+		font-weight: bold;
+	    	font-size: 54.97px;
+	    	margin-left: -70px;
+	}
+
+	#first-section #section-quote-container p{
+	    font-family: MuseoSans100;
+	    font-size: 32.91px;
+	    margin-top: -14px;
+	    margin-left: 7px;
+	    line-height: 27px;
+	    margin-left: -70px;
+	}
+
+	#first-section .contact-title{
+		font-family: AvenirLTStd-Heavy;
+		font-size: 24px;
+	}
+
+	#second-section #section-quote-container{
 		margin-top: 150px;
 	}
 
-	#second-section-quote h2{
+	#second-section #section-quote-container h2{
 		font-family: MuseoSans700;
 		font-size: 36.46px;
-		text-align: center;
-		margin-top: -130px;
 	}
 
-	#second-section-quote p{
+	#second-section #section-quote-container p{
 		font-size: 22px;
-		text-align: center;
 	}
 
 	#second-section .quote-subtitle{
@@ -156,42 +201,199 @@
 		color: #696969;
 	}
 
+	#fifth-section{
+		height: 699.80px;
+		max-height: 699.80px;
+	}
 
-
-	#fifth-section-quote h4{
+	#fifth-section #section-quote-container h4{
 		margin-top: 40px;
 		font-family: MuseoSans700;
 		font-size: 25.09px;
+	}
+
+	#fifth-section #section-quote-container p{
+		font-family: MuseoSans300;
+		font-size: 24px;
+		color: #696969;
+	}
+
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+	}
+
+	#sixth-section li{
+		padding-bottom: 18px;
+	}
+
+	#sixth-section .right{
+		float: left !important;
+	}
+
+	#sixth-section .right img{
+		margin-left: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .right span{
+		margin-right: -15px;
+		float:left;
+		clear:left;
+	}
+
+	#sixth-section .left img{
+		float:right;
+		clear:right;
+		margin-right: -30px;
+	}
+
+	#sixth-section .left span{
+		margin-right: -15px;
+		float:right;
+		clear:right;
+	}
+	#sixth-section li span{
+		padding-bottom: 10px;
+	}
+
+	.bottom-text{
+		font-family: MuseoSans300;
+		font-size: 30px;
+		/*margin-left: 30px;*/
+	   	margin-top: -150px;
+    		padding-bottom: 20px;
+	}
+
+	#seventh-section .arrow{
+		margin-top: 40%;
+	}
+}
+
+/* Small Devices, Tablets */
+/*@media only screen and (max-width : 768px) {
+
+}*/
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#first-section #section-quote-container{
+		margin-top: 110px;
+	}
+
+	#first-section #section-contact-container{
+		margin-top: 50px;
+	}
+
+	#first-section #section-quote-container h1{
+		font-family: MuseoSans900;
+		color: #e44c3b;
+		font-weight: bold;
+	    	font-size: 44.97px;
+	    	text-align: center;
+	    	margin-top: -70px;
+	}
+
+	#first-section #section-quote-container p{
+	    font-family: MuseoSans100;
+	    font-size: 32.91px;
+	    margin-top: -14px;
+	    margin-left: 7px;
+	    line-height: 27px;
+	    text-align: center;
+	}
+
+	#first-section .contact-title{
+		font-family: AvenirLTStd-Heavy;
+		font-size: 24px;
+	}
+
+	/*End of first section*/
+
+	#second-section #section-quote-container{
+		margin-top: 150px;
+	}
+
+	#second-section #section-quote-container h2{
+		font-family: MuseoSans700;
+		font-size: 36.46px;
+		margin-top: -120px;
+    		text-align: center;
+	}
+
+	#second-section #section-quote-container p{
+		font-size: 22px;
 		text-align: center;
 	}
 
-	#fifth-section-quote p{
+	#second-section .quote-subtitle{
+		font-family: MuseoSans700;
+		font-size: 24px;
+		color: #696969;
+		text-align: center;
+	}
+
+	#second-section .quote-text{
 		font-family: MuseoSans300;
 		font-size: 24px;
 		color: #696969;
 		text-align: center;
 	}
 
-	#fifth-section button{
+	#fifth-section{
+		height: 1100.8px;
+		max-height: 1100.8px;
+	}
+
+	#fifth-section #section-quote-container{
+		text-align: center;
+	}
+
+	#fifth-section #section-quote-container h4{
+		margin-top: 40px;
+		font-family: MuseoSans700;
+		font-size: 25.09px;
+	}
+
+	#fifth-section #section-quote-container p{
+		font-family: MuseoSans300;
+		font-size: 24px;
+		color: #696969;
+	}
+
+	#sixth-section h1{
+		margin-top: -5px;
+	}
+
+	#sixth-section ul{
+		list-style-type: none;
+		margin-top:30px;
+		text-align: center
+	}
+
+	#sixth-section img{
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	#indicator:after {
-		content:"xs";
+	#sixth-section li{
+		padding-bottom: 18px;
 	}
-}
 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-	#indicator {
-		content:lg;
+	#sixth-section li span{
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	#sixth-section .right{
+		margin-top: -10px;
+	}
+
+	#seventh-section .arrow {
+	    margin-top: 160%;
+	    width: 30px;
 	}
 }
 
@@ -267,7 +469,6 @@ ul.navbar-right li a {
 	font-size: 24px;
 }
 
-
 #first-section {
     background-color: #f5f3da !important;
     background: url(../images/customad/bg-section-1.png) no-repeat;
@@ -280,35 +481,7 @@ ul.navbar-right li a {
 	margin-top: 50px;
 }
 
-/*#main-quote{
-	margin-top: 110px;
-}
 
-#main-quote h1{
-	font-family: MuseoSans900;
-	color: #e44c3b;
-	font-weight: bold;
-    	font-size: 54.97px;
-    	margin-left: -70px;
-}
-
-#main-quote p{
-    font-family: MuseoSans100;
-    font-size: 32.91px;
-    margin-top: -14px;
-    margin-left: 7px;
-    line-height: 27px;
-    margin-left: -70px;
-}
-
-#contact{
-	margin-top: 50px;
-}
-
-.contact-title{
-	font-family: AvenirLTStd-Heavy;
-	font-size: 24px;
-}*/
 
 #second-section{
 	background: url(../images/customad/bg-section-2.png) no-repeat;
@@ -316,31 +489,6 @@ ul.navbar-right li a {
 	height: 600px;
 	max-height: 600px;
 }
-
-/*#second-section-quote{
-	margin-top: 150px;
-}
-
-#second-section-quote h2{
-	font-family: MuseoSans700;
-	font-size: 36.46px;
-}
-
-#second-section-quote p{
-	font-size: 22px;
-}
-
-#second-section .quote-subtitle{
-	font-family: MuseoSans700;
-	font-size: 24px;
-	color: #696969;
-}
-
-#second-section .quote-text{
-	font-family: MuseoSans300;
-	font-size: 24px;
-	color: #696969;
-}*/
 
 #second-section .img-responsive{
 	margin-top: 50px;
@@ -365,22 +513,7 @@ ul.navbar-right li a {
 #fifth-section{
 	background: url(../images/customad/bg-section-5.png) no-repeat;
 	background-size: cover;
-	height: 699.80px;
-	max-height: 699.80px;
 	padding-top: 40px;
-/*	font-family: MuseoSans700;*/
-}
-
-#fifth-section-quote h4{
-	margin-top: 40px;
-	font-family: MuseoSans700;
-	font-size: 25.09px;
-}
-
-#fifth-section-quote p{
-	font-family: MuseoSans300;
-	font-size: 24px;
-	color: #696969;
 }
 
 #sixth-section{
@@ -391,12 +524,12 @@ ul.navbar-right li a {
 	max-height: 928.79px;
 }
 
-#sixth-section .bottom-text{
+/*#sixth-section .bottom-text{
 	font-family: MuseoSans300;
 	font-size: 30px;
 	margin-left: 30px;
    	margin-top: 50px;
-}
+}*/
 
 #seventh-section{
 	background: url(../images/customad/bg-section-6.png) no-repeat;
@@ -406,9 +539,6 @@ ul.navbar-right li a {
 	padding-top: 40px;
 }
 
-.arrow{
-	margin-top: 90%;
-}
 
 .arrow-left{
 	float: right
