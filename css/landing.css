@@ -1,4 +1,4 @@
-@media only screen and (max-width:1196px) and (min-width: 768px) {
+@media only screen and (max-width:1196px) and (min-width: 992px) {
 
     #contact {
         width: 25%;
@@ -28,7 +28,7 @@
 
 }
 
-@media only screen and (max-width:1181px) and (min-width: 768px) {
+@media only screen and (max-width:1181px) and (min-width: 992px) {
 
     #fourth-section .main-quote, #eighth-section .main-quote {
         margin-left: 360px;
@@ -46,7 +46,7 @@
 
 }
 
-@media only screen and (max-width:1172px) and (min-width: 768px) {
+@media only screen and (max-width:1172px) and (min-width: 992px) {
 
     #seventh-section .use.small {
         width: 70%;
@@ -64,7 +64,7 @@
 
 }
 
-@media only screen and (max-width:1142px) and (min-width: 768px) {
+@media only screen and (max-width:1142px) and (min-width: 992px) {
     #first-section #quote {
         margin-left: 40.7%;
     }
@@ -78,7 +78,9 @@
 
 }
 
-@media only screen and (max-width : 1500px) and (min-width: 768px) {
+/*MD AND LG*/
+/*@media only screen and (max-width : 1500px) and (min-width: 768px) {*/
+@media only screen and (max-width : 1500px) and (min-width: 992px) {
     #first-section {
         background: url(../images/first-section-bg.png) no-repeat;
         max-height: 586px;
@@ -134,9 +136,9 @@
     }
 
     #contact {
-        width: 25%;
+        width: 26%;
         float: left;
-        text-align: center;
+        text-align: left;
     }
 
     #contact input {
@@ -583,21 +585,37 @@
         margin-top: 32px;
     }
 
-    #footer-ul2 .li5{
-    }
-
-
-
-
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) and (min-width: 768px) {
+
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) and (min-width:240px) {
+/*@media only screen and (max-width : 768px) and (min-width:240px) {*/
+@media only screen and (max-width : 992px) and (min-width:240px) {
+
+    .navbar-toggle {
+        border: 0px;
+    }
+
+    .navbar-toggle:hover {
+        background-color: #ffffff;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 25px;
+        height: 5px;
+        border-radius: 4px;
+
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #E44C3B;
+    }
 
     #first-section #quote {
         text-align: center;
@@ -653,5 +671,117 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+
+}
+
+/*MD ONLY*/
+@media (max-width: 1200px) and (min-width: 991px) {
+
+    #first-section #quote, #first-section #contact center {
+        text-align: left;
+    }
+
+    #first-section #quote {
+        margin-top: 26px;
+        margin-left: 28.7%;
+        margin-right: 25px;
+        width: 37.333333%;
+    }
+
+    #contact {
+        margin-top: -22px;
+        width: 31%;
+    }
+
+    #first-section {
+        background: url(../images/section1-md-bg.png) no-repeat;
+    }
+
+    #second-section {
+        margin-top: -23px;
+    }
+
+    #second-section .img4 {
+        max-width: 450px;
+        margin-top: 39px;
+    }
+
+    #third-section {
+        height: auto;
+        max-height: 100%;
+    }
+
+    #fourth-section button, #eighth-section button {
+        margin-top: -25px;
+    }
+
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 300px;
+    }
+
+    #sixth-section .carousel-control {
+        width: 13%;
+    }
+
+    #seventh-section .use {
+        width: 80%;
+    }
+
+    #seventh-section .use.small {
+        width: 80%;
+    }
+}
+
+/*NAVBAR COLLAPSE ON MD*/
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    ul.nav.navbar-nav.navbar-left {
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 50px;
+    }
+
+    ul.navbar-nav li {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
 
 }
