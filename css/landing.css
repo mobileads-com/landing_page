@@ -714,11 +714,14 @@
     #fourth-section button, #eighth-section button {
         margin-top: -25px;
     }
-    
+
     #fourth-section .main-quote, #eighth-section .main-quote {
-        margin-left: 365px;
+        margin-left: 300px;
     }
 
+    #sixth-section .carousel-control {
+        width: 13%;
+    }
 }
 
 /*NAVBAR COLLAPSE ON MD*/
