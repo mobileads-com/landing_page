@@ -662,7 +662,11 @@
     }
 
     #fourth-section button, #eighth-section button {
-        margin-top: -25px;
+        margin-top: 0px;
+    }
+
+    #fourth-section h1, #eighth-section h1 {
+        font-size: 25.54px;
     }
 
     #fourth-section .main-quote, #eighth-section .main-quote {
