@@ -722,6 +722,14 @@
     #sixth-section .carousel-control {
         width: 13%;
     }
+
+    #seventh-section .use {
+        width: 80%;
+    }
+
+    #seventh-section .use.small {
+        width: 80%;
+    }
 }
 
 /*NAVBAR COLLAPSE ON MD*/
@@ -766,6 +774,10 @@
         text-align: center;
         background-color: #fff;
         padding-bottom: 50px;
+    }
+
+    ul.navbar-nav li {
+        margin-top: 10px;
     }
 
 }
