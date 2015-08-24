@@ -706,6 +706,18 @@
         margin-top: 39px;
     }
 
+    #third-section {
+        height: auto;
+        max-height: 100%;
+    }
+
+    #fourth-section button, #eighth-section button {
+        margin-top: -25px;
+    }
+    
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 365px;
+    }
 
 }
 
