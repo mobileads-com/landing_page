@@ -518,38 +518,3 @@ ul.navbar-right li a {
         margin-top: 10px;
     }
 }
-
-
-/*#footer-section .social-imgs img {
-    opacity:0;
-}
-
-#footer-section .social-imgs img{
-    overflow: hidden;
-    transition:all 0.3s;
-}
-
-
-#footer-section a.img-fb {
-    background: url('../images/Facebook.png') no-repeat;
-}
-
-#footer-section a.img-tw {
-    background: url('../images/Twitter.png') no-repeat;
-}
-
-#footer-section a.img-li {
-    background: url('../images/Linkedin.png') no-repeat;
-}
-
-#footer-section a.img-fb:hover {
-    background: url('../images/Facebook-copy.png') no-repeat;
-}
-
-#footer-section a.img-tw:hover {
-    background: url('../images/Twitter-copy.png') no-repeat;
-}
-
-#footer-section a.img-li:hover {
-    background: url('../images/Linkedin-copy.png') no-repeat;
-}*/
