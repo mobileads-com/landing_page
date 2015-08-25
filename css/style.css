@@ -301,7 +301,10 @@ ul.navbar-right li a {
     color: #696969;
     padding-bottom: 85px;
     margin-right: 17px;
-
+    outline: 1px solid #ffffff;
+    outline-offset: 5px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
 }
 
 .carousel-text p {
