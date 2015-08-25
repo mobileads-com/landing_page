@@ -302,18 +302,6 @@
         margin-top: 55px;
     }
 
-    #fifth-section .images .img1 {
-        margin-left: 74px;
-    }
-
-    #fifth-section .images .img2 {
-        margin-left: 72px;
-    }
-
-    #fifth-section .images .img3 {
-        margin-left: 46px;
-    }
-
     #fifth-section .images #button1 {
         margin-left: 99px;
     }
@@ -692,5 +680,15 @@
 
 
 @media (max-width: 1500px) and (min-width: 1200px) {
+    #fifth-section .images .img1 {
+        margin-left: 74px;
+    }
 
+    #fifth-section .images .img2 {
+        margin-left: 72px;
+    }
+
+    #fifth-section .images .img3 {
+        margin-left: 46px;
+    }
 }
