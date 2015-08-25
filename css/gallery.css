@@ -101,4 +101,17 @@
     #first-section .button-div-lg {
         display: none;
     }
+
+    #first-section .carousel-control {
+        margin-top: 116px;
+        margin-left: 56px;
+    }
+}
+
+@media (max-width: 1330px) and (min-width: 992px) {
+
+    #first-section .carousel-control {
+        width: 11%;
+    }
+
 }
