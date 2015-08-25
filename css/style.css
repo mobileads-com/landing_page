@@ -203,8 +203,8 @@ ul.navbar-right li a {
 }
 
 #fourth-section, #eighth-section {
-    background-color: #181818;
     background: url(../images/section4-bg.png) no-repeat;
+    background-color: #181818;
 }
 
 #fourth-section h1, #eighth-section h1 {
