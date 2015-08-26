@@ -2,6 +2,7 @@
     background: url(../images/gallery/bg.png) no-repeat;
     max-height: 780px;
     height: 780px;
+    background-color: #D3EED7 !important;
 }
 
 #first-section .carousel-inner img {
@@ -105,6 +106,23 @@
     #first-section .carousel-control {
         margin-top: 116px;
         margin-left: 56px;
+    }
+}
+
+@media (min-width: 1421px) {
+    #first-section {
+        background: url(../images/gallery/bg-lg.png) no-repeat;
+        max-height: 1280px;
+        height: 1280px;
+    }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1422px) {
+    #first-section {
+        background: url(../images/gallery/bg-lg.png) no-repeat;
+        max-height: 1000px;
+        height: 1000px;
     }
 }
 
