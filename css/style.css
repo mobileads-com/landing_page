@@ -398,7 +398,8 @@ ul.navbar-right li a {
     }
 }
 
-@media only screen and (max-width : 1500px) and (min-width: 992px) {
+/*@media only screen and (max-width : 1500px) and (min-width: 992px) {*/
+@media only screen and (max-width : 2100px) and (min-width: 992px) {
     #footer-section {
         max-height: 121px;
         height: 121px;
