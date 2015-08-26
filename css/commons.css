@@ -65,6 +65,16 @@
 	src: url("../fonts/AvenirLTStd-Medium.woff");
 }
 
+@font-face {
+	font-family: "AvenirLTStd-Roman";
+	src: url("../fonts/AvenirLTStd-Roman.woff");
+}
+
+@font-face {
+	font-family: "MyriadPro-Reg";
+	src: url("../fonts/MyriadPro-Reg.woff");
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* XtraLarge Devices, Wide Screens */
