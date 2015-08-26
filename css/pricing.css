@@ -1,0 +1,172 @@
+#first-section{
+	background: url(../images/price-page/section1-bg.png) no-repeat;
+	background-size: cover;
+	height: 308px;
+	margin-top: 55px;
+}
+
+#first-section h1{
+	font-family: MuseoSans700;
+	font-size: 36.46 px;
+	margin-top: 40px;
+    	padding: 5px;
+}
+
+#first-section h2{
+	font-family: MuseoSans300;
+	font-size: 24 px;
+	color: #5a5d5a;
+}
+
+#first-section h3{
+	font-family: MuseoSans300;
+	font-size: 21 px;
+	color: #5a5d5a;
+}
+
+#first-section button{
+	width: 200px;
+	margin-top: 35px;
+	font-size: 23px;
+}
+
+#second-section{
+	margin-top: 20px;
+}
+
+.col-title {
+	text-align: right;
+}
+
+.head-title{
+	background-color: #bee4c5;
+	border-radius: 4px;
+}
+
+.bordered{
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+
+.table i{
+	color: #78c19f;
+	font-size: 24px;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	border: 0;
+}
+
+#third-section{
+	background: url(../images/price-page/banner.png) no-repeat;
+	background-size: cover;
+	height: 134px;
+}
+
+#third-section h1{
+	font-family: MuseoSans700;
+	font-size: 32 px;
+}
+
+#third-section h2{
+	font-family: MuseoSans300;
+	font-size: 26.85 px;
+	color: #ffffff
+}
+
+#fourth-section{
+	background-color: #f5f3d9;
+}
+
+#fourth-section h1{
+	font-family: MuseoSans700;
+	font-size: 32 px;
+}
+
+#fourth-section h4{
+	font-family: AvenirLTStd-Black;
+	font-size: 21 px;
+	color: #434343;
+}
+
+#fourth-section p{
+	font-family: AvenirLTStd-Medium;
+	font-size: 16px;
+	color: #8b8b8b;
+}
+
+.panel-transparent{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.panel-underline{
+	color: #8b8b8b;
+}
+
+.panel-heading img{
+	margin-left:-65px;
+	margin-top: 5px; 
+	padding-right:15px;
+	float:left;
+}
+
+.panel-transparent > .panel-heading{
+	background-color: transparent;
+}
+
+#fifth-section{
+	height: 176px;
+	background-color: #d4eed8;
+}
+
+#fifth-section h1{
+	font-family: MuseoSans700;
+	font-size: 32px;
+}
+
+#fifth-section h2{
+	font-family: MuseoSans300;
+	font-size: 26px;
+	color: #464646;
+}
+
+#fifth-section span{
+	font-family: AvenirLTStd-Medium;
+	font-size: 19px;
+}
+
+#price-footer-section{
+	max-height: 26px;
+	height: 26px;
+	padding: 10px;
+	font-family: MuseoSans300;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#price-footer-section #footer-nav li{
+	display: block;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+#footer-nav{
+	display: inline-block;
+}
+.li-text, .li-social, .li-site{
+	margin-top: 2px;
+}
+
+.li-text a, .li-site a{
+	color: #696969;
+}
+
+.li-text{
+	padding-left: 2px;
+	padding-right: 2px;
+}
