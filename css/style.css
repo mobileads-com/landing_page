@@ -435,11 +435,11 @@ ul.navbar-right li a {
 @media only screen and (max-width : 992px) and (min-width:240px) {
     #footer-section #footer-ul {
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
     #footer-section #footer-ul li {
-        margin-left: 38px;
+        margin-left: 10px;
     }
 
     #footer-section a {
