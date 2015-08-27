@@ -567,6 +567,14 @@
         font-size: 22.56px;
     }
 
+    #second-section #main-text {
+        margin-bottom: 50px;
+    }
+
+    #second-section .row {
+        margin-bottom: 10%;
+    }
+
     #third-section .main img {
         margin-bottom: 30px;
     }
