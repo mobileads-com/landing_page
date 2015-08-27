@@ -546,12 +546,6 @@
 
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) and (min-width: 768px) {
-
-
-}
-
 /* Small Devices, Tablets */
 /*@media only screen and (max-width : 768px) and (min-width:240px) {*/
 @media only screen and (max-width : 992px) and (min-width:240px) {
@@ -566,7 +560,7 @@
     }
 
     #fourth-section h1, #eighth-section h1 {
-        font-size: 26px;
+        font-size: 23px;
     }
 
     #fourth-section, #eighth-section {
@@ -691,5 +685,11 @@
 
     #fifth-section .images .img3 {
         margin-left: 46px;
+    }
+}
+
+@media (min-width: 1422px) {
+    #fourth-section .main-quote, #eighth-section .main-quote {
+        margin-left: 620px;
     }
 }
