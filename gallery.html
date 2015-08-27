@@ -94,29 +94,29 @@
 
                 <div id="button-div" class="button-div-lg">
                     <a href="#">
-                        <div class="text-center button active">
+                        <div class="text-center button active" id="all">
                             <a href="#">
                                 <span class="highlight">All</span>
                             </a>
                         </div>
                     </a>
-                    <a href="#">
-                        <div class="text-center button">
+                    <a href="#" >
+                        <div class="text-center button" id="expandable">
                             <a href="#">
                                 <span class="highlight">Expandable</span>
                             </a>
                         </div>
                     </a>
 
-                    <a href="#" id="embedded">
-                        <div class="text-center button">
+                    <a href="#">
+                        <div class="text-center button" id="embedded">
                             <a href="#">
                                 <span class="highlight">Embedded</span>
                             </a>
                         </div>
                     </a>
                     <a href="#">
-                        <div class="text-center button">
+                        <div class="text-center button" id="interstitial">
                             <a href="#">
                                 <span class="highlight">Interstitial</span>
                             </a>
@@ -128,14 +128,14 @@
                 <div id="button-div" class="button-div-sm">
                     <div>
                         <a href="#">
-                            <div class="text-center button active">
+                            <div class="text-center button active" id="all">
                                 <a href="#">
                                     <span class="highlight">All</span>
                                 </a>
                             </div>
                         </a>
                         <a href="#">
-                            <div class="text-center button">
+                            <div class="text-center button" id="expandable">
                                 <a href="#">
                                     <span class="highlight">Expandable</span>
                                 </a>
@@ -144,15 +144,15 @@
                     </div>
 
                     <div>
-                        <a href="#" id="embedded">
-                            <div class="text-center button">
+                        <a href="#">
+                            <div class="text-center button" id="embedded">
                                 <a href="#">
                                     <span class="highlight">Embedded</span>
                                 </a>
                             </div>
                         </a>
                         <a href="#">
-                            <div class="text-center button">
+                            <div class="text-center button" id="interstitial">
                                 <a href="#">
                                     <span class="highlight">Interstitial</span>
                                 </a>
@@ -163,7 +163,8 @@
 
 
 
-                <div id="carousel-md" class="carousel slide" data-ride="carousel">
+                <!-- ALL -->
+                <div id="carousel-all-md" class="carousel slide" data-ride="carousel">
 
                     <div class="hidden-xs hidden-sm">
                         <center class="carousel-inner">
@@ -175,18 +176,14 @@
                             </div>
                         </center>
                          <div class="hidden-xs hidden-sm hidden-md">
-                            <a class="left carousel-control" href="#carousel-md" data-slide="prev"><img src="images/arrow-left-md.png"></a>
-                            <a class="right carousel-control" href="#carousel-md" data-slide="prev"><img src="images/arrow-right-md.png"></a>
-                        </div>
-                        <div class="hidden-lg">
-                            <a class="left carousel-control" href="#carousel-md" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
-                            <a class="right carousel-control" href="#carousel-md" data-slide="prev"><img src="images/arrow-right-sm.png"></a>
+                            <a class="left carousel-control" href="#carousel-all-md" data-slide="prev"><img src="images/arrow-left-md.png"></a>
+                            <a class="right carousel-control" href="#carousel-all-md" data-slide="next"><img src="images/arrow-right-md.png"></a>
                         </div>
                     </div>
                 </div>
 
                     <!-- SM XS -->
-                <div id="carousel-sm" class="carousel slide" data-ride="carousel">
+                <div id="carousel-all-sm" class="carousel slide" data-ride="carousel">
 
                     <div class="hidden-md hidden-lg">
                         <center class="carousel-inner">
@@ -202,16 +199,149 @@
                             </div>
 
                         </center>
-                         <div class="hidden-xs hidden-sm hidden-md">
-                            <a class="left carousel-control" href="#carousel-sm" data-slide="prev"><img src="images/arrow-left-md.png"></a>
-                            <a class="right carousel-control" href="#carousel-sm" data-slide="prev"><img src="images/arrow-right-md.png"></a>
-                        </div>
                         <div class="hidden-lg">
-                            <a class="left carousel-control" href="#carousel-sm" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
-                            <a class="right carousel-control" href="#carousel-sm" data-slide="prev"><img src="images/arrow-right-sm.png"></a>
+                            <a class="left carousel-control" href="#carousel-all-sm" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
+                            <a class="right carousel-control" href="#carousel-all-sm" data-slide="next"><img src="images/arrow-right-sm.png"></a>
                         </div>
                     </div>
                 </div>
+                <!-- /ALL -->
+
+                <!-- EXPANDABLE -->
+
+                <div id="carousel-expandable-md" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-xs hidden-sm">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img2.png" alt="">
+                                <img src="images/gallery/img1.png" alt="">
+                                <img src="images/gallery/img3.png" alt="">
+                            </div>
+                        </center>
+                         <div class="hidden-xs hidden-sm hidden-md">
+                            <a class="left carousel-control" href="#carousel-expandable-md" data-slide="prev"><img src="images/arrow-left-md.png"></a>
+                            <a class="right carousel-control" href="#carousel-expandable-md" data-slide="next"><img src="images/arrow-right-md.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- SM XS -->
+                <div id="carousel-expandable-sm" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-md hidden-lg">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img2.png" alt="">
+
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img1.png" alt="">
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img3.png" alt="">
+                            </div>
+
+                        </center>
+                        <div class="hidden-lg">
+                            <a class="left carousel-control" href="#carousel-expandable-sm" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
+                            <a class="right carousel-control" href="#carousel-expandable-sm" data-slide="next"><img src="images/arrow-right-sm.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /EXPANDABLE -->
+
+                <!-- EMBEDDED -->
+
+                <div id="carousel-embedded-md" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-xs hidden-sm">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img3.png" alt="">
+                                <img src="images/gallery/img1.png" alt="">
+                                <img src="images/gallery/img2.png" alt="">
+                            </div>
+                        </center>
+                         <div class="hidden-xs hidden-sm hidden-md">
+                            <a class="left carousel-control" href="#carousel-embedded-md" data-slide="prev"><img src="images/arrow-left-md.png"></a>
+                            <a class="right carousel-control" href="#carousel-embedded-md" data-slide="next"><img src="images/arrow-right-md.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- SM XS -->
+                <div id="carousel-embedded-sm" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-md hidden-lg">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img3.png" alt="">
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img2.png" alt="">
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img1.png" alt="">
+                            </div>
+
+                        </center>
+                        <div class="hidden-lg">
+                            <a class="left carousel-control" href="#carousel-embedded-sm" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
+                            <a class="right carousel-control" href="#carousel-embedded-sm" data-slide="next"><img src="images/arrow-right-sm.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /EMBEDDED -->
+
+                <!-- INTERSTITIAL -->
+                <div id="carousel-interstitial-md" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-xs hidden-sm">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img1.png" alt="">
+                                <img src="images/gallery/img3.png" alt="">
+                                <img src="images/gallery/img2.png" alt="">
+                            </div>
+                        </center>
+                         <div class="hidden-xs hidden-sm hidden-md">
+                            <a class="left carousel-control" href="#carousel-interstitial-md" data-slide="prev"><img src="images/arrow-left-md.png"></a>
+                            <a class="right carousel-control" href="#carousel-interstitial-md" data-slide="next"><img src="images/arrow-right-md.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- SM XS -->
+                <div id="carousel-interstitial-sm" class="carousel slide" data-ride="carousel">
+
+                    <div class="hidden-md hidden-lg">
+                        <center class="carousel-inner">
+
+                            <div class="active item">
+                                <img src="images/gallery/img1.png" alt="">
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img3.png" alt="">
+                            </div>
+                            <div class="inactive item">
+                                <img src="images/gallery/img2.png" alt="">
+                            </div>
+
+                        </center>
+                        <div class="hidden-lg">
+                            <a class="left carousel-control" href="#carousel-interstitial-sm" data-slide="prev"><img src="images/arrow-left-sm.png"></a>
+                            <a class="right carousel-control" href="#carousel-interstitial-sm" data-slide="next"><img src="images/arrow-right-sm.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /INTERSTITIAL -->
+
             </div>
         </section>
     </div>
@@ -290,6 +420,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/gallery.js"></script>
 
 </body>
 
