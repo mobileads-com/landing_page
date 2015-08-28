@@ -116,11 +116,20 @@
     }
 }
 
-@media (min-width: 1421px) {
+@media (min-width: 1921px) {
+       #first-section {
+        background: url(../images/gallery/bg-lg.png) no-repeat;
+        max-height: 1225px;
+        height: 1225px;
+    }
+ 
+}
+
+@media (min-width: 1421px) and (max-width: 1920px) {
     #first-section {
         background: url(../images/gallery/bg-lg.png) no-repeat;
-        max-height: 1280px;
-        height: 1280px;
+        max-height: 1064px;
+        height: 1064px;
     }
 
 }
@@ -128,8 +137,8 @@
 @media (min-width: 1281px) and (max-width: 1422px) {
     #first-section {
         background: url(../images/gallery/bg-lg.png) no-repeat;
-        max-height: 1000px;
-        height: 1000px;
+        max-height: 855px;
+        height: 855px;
     }
 }
 
