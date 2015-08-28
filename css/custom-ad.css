@@ -6,7 +6,7 @@
 		height: 588px;
 	}
 
-	#first-section #section-quote-container .main-quote{
+	#first-section #section-quote-container .head-quote{
 		font-weight: bold;
 		/*font-size: 30.97px;*/
 		text-align: center;
@@ -253,7 +253,7 @@
 		height: 472px;
 	}
 
-	#first-section #section-quote-container .main-quote{
+	#first-section #section-quote-container .head-quote{
 		font-weight: bold;
 		/*font-size: 35.97px;*/
 		text-align: left;
@@ -378,13 +378,10 @@
 
 	#first-section #section-quote-container{
 		margin-top: 96px;
-		/*margin-left: -50px;*/
 	}
 
-	#first-section #section-quote-container .main-quote{
-		/*margin-top: 130px;*/
+	#first-section #section-quote-container .head-quote{
 		text-align: left;
-		/*font-size: 50.97px;*/
 		margin-left: -50px;
 	}
 
