@@ -93,8 +93,12 @@
     #first-section .button-div-sm {
         display: inline-flex;
         margin-bottom: 52px;
-        margin-left: 42px;
+        /*margin-left: 42px;*/
 
+    }
+
+    #first-section .carousel-inner {
+        margin-left: 10px;
     }
 
     #first-section .button-div-lg {
@@ -103,7 +107,12 @@
 
     #first-section .carousel-control {
         margin-top: 116px;
-        margin-left: 56px;
+        margin-left: -3px;
+        margin-right: -16px;
+    }
+
+    #first-section .carousel-inner img {
+        margin-left: 0px;
     }
 }
 
