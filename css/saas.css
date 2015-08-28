@@ -1,0 +1,134 @@
+#first-section {
+    background: url(../images/saas/section1-bg.png) no-repeat;
+}
+
+#first-section #quote h1 {
+    font-size: 41px;
+    font-weight: normal;
+    font-family: MuseoSans700;
+}
+
+#first-section h3, h4, h5 {
+    font-family: MuseoSans300;
+    font-weight: normal;
+    color: #464646;
+}
+
+#first-section #quote h3 {
+    font-size: 26px;
+}
+
+#first-section #be-ready h2 {
+    font-family: MuseoSans2;
+    font-size: 28px;
+}
+
+
+#first-section #be-ready h3 {
+    font-size: 21px;
+    margin-top: -5px;
+}
+
+#first-section #be-ready h4.first {
+    margin-top: 22px;
+}
+
+#first-section #be-ready h4 {
+    font-size: 20px;
+
+    margin-bottom: 23px;
+}
+
+#first-section #be-ready .fa {
+    font-size: 24px;
+}
+
+#first-section #be-ready {
+    margin-top: 20px;
+}
+
+#first-section h4.last #many-more {
+    margin-left: 37px;
+}
+
+#first-section #be-ready button {
+    margin-left: 124px;
+    font-size: 22.7px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 59px;
+    padding-right: 49px;
+}
+
+#second-section {
+    background: url(../images/saas/section2-bg.png) no-repeat;
+    background-color: #d3eed7;
+}
+
+#second-section .row h2 {
+    font-family: AvenirLTStd-Black;
+    font-size: 28px;
+}
+
+#second-section .row p {
+    font-size: 21px;
+    line-height: 35px;
+}
+
+#second-section #main-text {
+    margin-top: 89px;
+    margin-left: 63px;
+}
+
+#second-section .main-text {
+    margin-top: 89px;
+    margin-left: 63px;
+}
+
+#second-section .row #row1{
+    margin-top: 111px
+}
+
+#second-section .img1 {
+    margin-top: -58px;
+}
+
+#fourth-section {
+    background: url(../images/saas/banner1-bg.png) no-repeat;
+    max-height: 115px;
+    height: 115px;
+}
+
+#fourth-section h1 {
+    font-size: 32px;
+    font-family: MuseoSans700;
+    margin-top: 45px;
+    letter-spacing: 1.04px;
+}
+
+#eighth-section {
+   background: url(../images/saas/banner2-bg.png) no-repeat;
+   background-color: #181818;
+}
+
+@media only screen and (max-width : 2100px) and (min-width: 992px) {
+    #first-section {
+        height: 607px;
+        max-height: 607px;
+    }
+
+    #first-section #quote {
+        margin-top: 45px;
+        margin-left: 38px;
+    }
+
+    #second-section {
+        height: 1464px;
+        max-height: 1464px;
+    }
+
+    #eighth-section {
+       height: 162px;
+       max-height: 162px;
+    }
+}
