@@ -106,6 +106,10 @@
     letter-spacing: 1.04px;
 }
 
+#eighth-section {
+   background: url(../images/saas/banner2-bg.png) no-repeat;
+   background-color: #181818;
+}
 
 @media only screen and (max-width : 2100px) and (min-width: 992px) {
     #first-section {
@@ -121,6 +125,10 @@
     #second-section {
         height: 1464px;
         max-height: 1464px;
+    }
 
+    #eighth-section {
+       height: 162px;
+       max-height: 162px;
     }
 }
