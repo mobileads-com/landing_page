@@ -6,11 +6,11 @@ $(function() {
 
 
     function setAsActive(context) {
-        $('#button-div div').removeClass('active');
+        $('.button-div div').removeClass('active');
         $(context).addClass('active');
     }
 
-    $('#expandable').click(function() {
+    $('#expandable, #expandable-sm').click(function() {
         setAsActive(this);
 
         $('#carousel-embedded-md, #carousel-embedded-sm').hide();
@@ -20,7 +20,7 @@ $(function() {
         $('#carousel-expandable-md, #carousel-expandable-sm').show();
     });
 
-    $('#embedded').click(function() {
+    $('#embedded, #embedded-sm').click(function() {
         setAsActive(this);
 
         $('#carousel-all-md, #carousel-all-sm').hide();
@@ -30,7 +30,7 @@ $(function() {
         $('#carousel-embedded-md, #carousel-embedded-sm').show();
     });
 
-    $('#interstitial').click(function() {
+    $('#interstitial, #interstitial-sm').click(function() {
         setAsActive(this);
 
         $('#carousel-all-md, #carousel-all-sm').hide();
@@ -40,7 +40,7 @@ $(function() {
         $('#carousel-interstitial-md, #carousel-interstitial-sm').show();
     });
 
-    $('#all').click(function() {
+    $('#all, #all-sm').click(function() {
         setAsActive(this);
 
         $('#carousel-embedded-md, #carousel-embedded-sm').hide();
