@@ -218,7 +218,7 @@
 
     #second-section .row {
         margin-top: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     #fourth-section {
@@ -234,7 +234,7 @@
     #eighth-section button {
         font-size: 19.7px;
         margin-bottom: 23px;
-        margin-right: 50px;
+        margin-right: 43px;
     }
 }
 
@@ -253,4 +253,10 @@
         margin-top: 33px;
     }
 
+}
+
+@media (max-width: 1105px) and (min-width: 992px) {
+    #second-section .img2 {
+        margin-left: 40px;
+    }
 }
