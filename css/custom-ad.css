@@ -63,7 +63,7 @@
 	}
 
 	#fifth-section{
-		height: 850px;
+		/*height: 850px;*/
 	}
 
 	#fifth-section #section-quote-container{
@@ -138,7 +138,7 @@
 	}
 
 	#seventh-section .arrow{
-		/*margin-top: 55px;*/
+		margin-top: 55px;
 		width: 30px;
 	}
 }
@@ -151,7 +151,7 @@
 	}
 
 	#second-section{
-		    height: 680px;
+		    /*height: 680px;*/
 	}
 
 	#first-section #section-quote-container h1{
@@ -173,11 +173,11 @@
 	}
 
 	#fourth-section{
-		height: 170px;
+		/*height: 170px;*/
 	}
 
 	#fifth-section {
-	    height: 750px;
+	    /*height: 750px;*/
 	}
 
 	#seventh-section{
@@ -185,12 +185,12 @@
 	}
 
 	#seventh-section .arrow {
-	    /*margin-top: 125px;*/
+	    margin-top: 125px;
 	    width: 30px;
 	}
 
 	#eight-section{
-		height: 180px;
+		/*height: 180px;*/
 	}
 
 	#footer-section{
@@ -238,11 +238,11 @@
 	}
 
 	#second-section {
-	    height: 780px;
+	    /*height: 780px;*/
 	}
 
 	#seventh-section .arrow {
-	    /*margin-top: 25px;*/
+	    margin-top: 25px;
 	    width: 30px;
 	}
 }
@@ -271,7 +271,7 @@
 	}
 
 	#second-section{
-		height: 480px;
+		/*height: 480px;*/
 	}
 
 	#second-section div:nth-child(1), #second-section div:nth-child(2){
@@ -287,7 +287,7 @@
 	}
 
 	#fifth-section {
-	    height: 550px;
+	    /*height: 550px;*/
 	}
 
 	#fifth-section #section-quote-container{
@@ -348,7 +348,7 @@
 
 
 	#seventh-section{
-		height: 500px;
+		/*height: 500px;*/
 	}
 
 	#seventh-section .arrow {
@@ -362,7 +362,7 @@
 	}
 
 	#footer-section{
-		height: 406px;
+		/*height: 406px;*/
 	}
 }
 
@@ -370,7 +370,7 @@
 @media only screen and (min-width : 1200px) {
 
 	#first-section {
-		height: 472px;
+		/*height: 472px;*/
 	}
 
 	#first-section #section-quote-container{
@@ -395,7 +395,7 @@
 	}
 
 	#second-section {
-	    height: 520px;
+	    /*height: 520px;*/
 	}
 
 	#second-section div:nth-child(1), #second-section div:nth-child(2){
@@ -416,7 +416,7 @@
 	}
 
 	#fifth-section {
-    		height: 520px;
+    		/*height: 520px;*/
 	}
 
 	#fifth-section #section-quote-container{
@@ -566,7 +566,7 @@ html, body {
 	background-size: cover;
 /*	height: 928.79px;
 	max-height: 928.79px;*/
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 	padding-bottom: 40px;
 }
 
