@@ -609,7 +609,8 @@
     }
 
     #sixth-section .carousel-control {
-        top: 118px;
+        /*top: 118px;*/
+        top: 162px;
         width: 10%;
         margin-left: -16px;
     }
@@ -624,11 +625,32 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+    #sixth-section a.right.carousel-control {
+        margin-right: 4px;
+    }
+
+    .carousel {
+        margin-left: 17px;
+    }
+
+    #sixth-section .main-quote {
+         margin-left: 0; 
+    }
+
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina Smallest */ 
 @media only screen and (max-width : 320px) {
+    #sixth-section .carousel-control {
+        /* top: 118px; */
+        top: 162px;
+        width: 3%;
+        margin-left: -25px;
+    }
 
+    .carousel-text {
+        outline: 0;
+    }
 }
 
 /*MD ONLY*/
