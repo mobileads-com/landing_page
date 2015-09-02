@@ -84,6 +84,8 @@
 @media only screen and (max-width : 2100px) and (min-width: 992px) {
     #first-section {
         background: url(../images/first-section-bg.png) no-repeat;
+        max-height: 586px;
+        height: 586px;
     }
 
     #first-section #quote {
@@ -127,7 +129,7 @@
     #contact .panel {
         margin-top: 6px;
         margin-left: 8px;
-        min-height: 356px;
+        height: 356px;
     }
 
     #contact .panel #free {
