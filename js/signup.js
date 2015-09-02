@@ -4,17 +4,18 @@ $(function() {
     formMsg.hide();
     $('#contact .fa-spinner').hide();
 
+    /*
     $('#signup-form, #signup-form-sm').validate({
         rules : {
             name : {
-                required : true
+                required : false
             },
             email : {
-                required : true, 
+                required : false, 
                 email : true
             },
             password : {
-                required : true
+                required : false
             }
         },
 
@@ -38,8 +39,9 @@ $(function() {
 
         }
     });
+    */
     
-    /*
+    
     $('#signup-form, #signup-form-sm').submit(function(event) {
         event.preventDefault();
 
@@ -58,10 +60,10 @@ $(function() {
 
         }).fail(function(jqXHR, textStatus) {
             console.log('Request failed', textStatus);
-            $('#contact .panel').height('390px');
-            formMsg.addClass('text-red').text('Please fill in all fields.');
+            // $('#contact .panel').height('390px');
+            formMsg.addClass('text-red').text('Something went wrong! Please try again later.');
             formMsg.show();
         });
     });
-    */
+    
 });
