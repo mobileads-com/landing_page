@@ -77,6 +77,7 @@
 
 #fourth-section {
     background: url(../images/saas/banner1-bg.png) no-repeat center;
+    background-color: #181818;
 }
 
 #fourth-section h1 {
@@ -120,8 +121,7 @@
     }
 
     #second-section {
-        height: 1464px;
-        max-height: 1464px;
+        padding-bottom: 55px;
     }
 
     #second-section #main-text {
@@ -167,7 +167,6 @@
     #second-section .img3 {
         margin-top: 30px;
         margin-left: -7px;
-        width: 90%;
     }
 
     #second-section .text4 {
@@ -248,15 +247,47 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #fourth-section center {
         margin-top: 33px;
     }
+
+    #first-section #be-ready button {
+        margin-left: 0px;
+    }
+
 
 }
 
 @media (max-width: 1105px) and (min-width: 992px) {
     #second-section .img2 {
         margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    #first-section #be-ready button {
+        font-size: 17.7px;
+    }
+
+    #first-section #quote h1 {
+        font-size: 36px;
+    }
+
+    #first-section #quote h3 {
+        font-size: 24px;
+    }
+
+    #first-section #be-ready h2 {
+        font-family: MuseoSans2;
+        font-size: 25px;
+    }
+
+    #first-section #be-ready h4 {
+        font-size: 18px;
+    }
+
+    #first-section #be-ready h3 {
+        font-size: 19px;
     }
 }
