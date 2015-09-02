@@ -769,3 +769,9 @@ ul.navbar-right li a {
 		margin-top: 10px;
 	}
 }
+
+.alert.error.alert-danger {
+    padding: 9px;
+    margin: 5px 0;
+}
+
