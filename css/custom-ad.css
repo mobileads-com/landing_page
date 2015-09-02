@@ -188,7 +188,7 @@
 	}
 
 	#seventh-section .arrow {
-	    margin-top: 125px;
+	    margin-top: 180px; /*125px;*/
 	    width: 30px;
 	}
 
@@ -507,6 +507,10 @@
 		/*height:40px;*/
 		background:#b4da55;
 	}	
+
+	#seventh-section .arrow {
+	    margin-top: 100px;
+	}
 }
 
 

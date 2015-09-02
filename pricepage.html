@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel=stylesheet href="css/bootstrap.min.css">
 	<link rel=stylesheet href="css/font-awesome.min.css">
+	<link rel=stylesheet href="css/bootstrap-select.min.css">
 	<link rel=stylesheet href="css/commons.css">
 	<link rel=stylesheet href="css/pricing.css">
 </head>
@@ -95,7 +96,7 @@
 							<td class="text-center col-title bottom-bordered">Preview Links</td>
 						</tr>
 						<tr>
-							<td class="text-center"><button type="button" class="btn btn-custom center-block text-uppercase">Select <br><span>Starter Plan</span></br> Now</button></td>
+							<td class="text-center"><button type="button" class="btn btn-custom center-block text-uppercase"  data-toggle="modal" href='#form-signup'>Select <br><span>Starter Plan</span></br> Now</button></td>
 						</tr>
 					</tbody>
 				</table>
@@ -341,9 +342,9 @@
 						</tr>
 						<tr>
 							<td class="text-center"></td>
-							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase">Select <br><span>Starter Plan</span></br> Now</button></td>
-							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase">Select <br><span>Pro Plan</span></br> Now</button></td>
-							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase">Select <br><span>Enterprise Plan</span></br> Now</button></td>
+							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase" data-toggle="modal" href='#form-signup'>Select <br><span>Starter Plan</span></br> Now</button></td>
+							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase" data-toggle="modal" href='#form-signup'>Select <br><span>Pro Plan</span></br> Now</button></td>
+							<td class="text-center"><button type="button" class="btn btn-custom center-block btn-block text-uppercase" data-toggle="modal" href='#form-signup'>Select <br><span>Enterprise Plan</span></br> Now</button></td>
 						</trbr
 					</tbody>
 				</table>
@@ -437,8 +438,8 @@
 		</section>
 	</div>
 
-	<div class="container-fluid">
-		<section id="footer-sections" class="row">
+	<footer class="footer" id="footer-sections">
+		<!-- <div class="container" > -->
 			<ul id="footer-links">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Ad Gallery</a></li>
@@ -460,9 +461,293 @@
 				<li class="site"><a href="#">&copy; MobileAds.com 2014 - 2015</a></li>
 				<li class="policy"><a href="#">Privacy Policy</a></li>
 			</ul>
-		</section>
+		<!-- </div> -->
+	</footer>
+	<div class="modal fade" id="form-signup">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-body">
+
+					<button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true"><i class="text-red fa fa-times-circle"></i></button>
+					
+					<div role="tabpanel">
+						<ul class="nav nav-tabs  tabs-right" role="tablist">
+							<li role="presentation"><a href="#tab-enterprise" aria-controls="tab-enterprise" role="tab" data-toggle="tab" class="text-red text-uppercase">Enterprise <p>$799/mo. or $7990/year</p></a></li>
+							<li role="presentation"><a href="#tab-pro" aria-controls="tab-pro" role="tab" data-toggle="tab" class="text-red text-uppercase">Pro <p>$299/mo. or $2990/year</p></a></li>
+							<li role="presentation"><a href="#tab-starter" aria-controls="tab-starter" role="tab" data-toggle="tab" class="text-red text-uppercase">Starter <p>$99/mo. or $990/year</p></a></li>
+							<li role="presentation" class="active"> <a href="#tab-free" aria-controls="tab" role="tab-free" data-toggle="tab" class="text-red text-uppercase" style="height: 70px;">Free<br> Account</a></li>
+						</ul>
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="tab-free">
+								<div class="row row-eq-height">
+									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tab-features">
+										<h4 class="feature-included text-red">What's Included</h4>
+										<h4 class="feature-header text-red">Mobile Rich Media Suite</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Creator</h4>
+												<p class="list-group-item-text">create as many ads as you like</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Management</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+										<h4 class="feature-header text-red">White Label Solution</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Platform</h4>
+												<p class="list-group-item-text">display your own company logo</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Preview Links</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+										</div>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 tab-forms">
+										<h3 class="text-red text-center">Register Now!</h3>
+										<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+												<form action="" method="POST" role="form">
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Your Name*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Work Email*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Password*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="GMT Timezone">
+													</div>
+													<button type="submit" class="btn btn-custom center-block text-uppercase">Create Account</button>
+													<h5 class="text-center ">By signing up you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></h5>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="tab-starter">
+								<div class="row row-eq-height">
+									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tab-features">
+										<h4 class="feature-included text-red">What's Included</h4>
+										<h4 class="feature-header text-red">Mobile Rich Media Suite</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Creator</h4>
+												<p class="list-group-item-text">create as many ads as you like</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Management</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Serving</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Tracking &amp; Report</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+										<h4 class="feature-header text-red">White Label Solution</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Platform</h4>
+												<p class="list-group-item-text">display your own company logo</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Preview Links</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+										</div>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 tab-forms">
+										<h3 class="text-red text-center">Register Now!</h3>
+										<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+												<form action="" method="POST" role="form">
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Your Name*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Work Email*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Password*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="GMT Timezone">
+													</div>
+													<button type="submit" class="btn btn-custom center-block text-uppercase">Create Account</button>
+													<h5 class="text-center ">By signing up you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></h5>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="tab-pro">
+								<div class="row row-eq-height">
+									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tab-features">
+										<h4 class="feature-included text-red">What's Included</h4>
+										<h4 class="feature-header text-red">Mobile Rich Media Suite</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Creator</h4>
+												<p class="list-group-item-text">create as many ads as you like</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Management</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Serving</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Tracking &amp; Report</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+										<h4 class="feature-header text-red">White Label Solution</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Platform</h4>
+												<p class="list-group-item-text">display your own company logo</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Preview Links</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Reporting Dashboard</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Ad gallery</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Client Technical Support</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 tab-forms">
+										<h3 class="text-red text-center">Register Now!</h3>
+										<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+												<form action="" method="POST" role="form">
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Your Name*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Work Email*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Password*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="GMT Timezone">
+													</div>
+													<button type="submit" class="btn btn-custom center-block text-uppercase">Create Account</button>
+													<h5 class="text-center ">By signing up you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></h5>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="tab-enterprise">
+								<div class="row row-eq-height">
+									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tab-features">
+										<h4 class="feature-included text-red">What's Included</h4>
+										<h4 class="feature-header text-red">Mobile Rich Media Suite</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Creator</h4>
+												<p class="list-group-item-text">create as many ads as you like</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Management</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Ad Serving</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Tracking &amp; Report</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+										<h4 class="feature-header text-red">White Label Solution</h4>
+										<div class="list-group">
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Platform</h4>
+												<p class="list-group-item-text">display your own company logo</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Preview Links</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Reporting Dashboard</h4>
+												<p class="list-group-item-text">demo live mockups like your own</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Branded Ad gallery</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Client Technical Support</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+											<li class="list-group-item">
+												<h4 class="list-group-item-heading"> <i class="fa fa-check-circle"></i> Client Ad Creator Access</h4>
+												<p class="list-group-item-text">manage all your ads under one place</p>
+											</li>
+										</div>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 tab-forms">
+										<h3 class="text-red text-center">Register Now!</h3>
+										<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+												<form action="" method="POST" role="form">
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Your Name*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Work Email*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="Password*">
+													</div>
+													<div class="form-group">
+														<input type="text" class="form-control" id="" placeholder="GMT Timezone">
+													</div>
+													<button type="submit" class="btn btn-custom center-block text-uppercase">Create Account</button>
+													<h5 class="text-center ">By signing up you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></h5>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap-select.min.js" type="text/javascript"></script>
+	<script src="js/timezones.full.min.js" type="text/javascript"></script>
+	<script src="js/pricepage.js" type="text/javascript"></script>
 </body>
 </html>
