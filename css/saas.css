@@ -248,10 +248,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #fourth-section center {
         margin-top: 33px;
     }
+
+    #first-section #be-ready button {
+        margin-left: 0px;
+    }
+
 
 }
 
