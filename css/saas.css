@@ -260,3 +260,9 @@
         margin-left: 40px;
     }
 }
+
+@media (max-width: 480px) {
+    #first-section #be-ready button {
+        font-size: 17.7px;
+    }
+}
