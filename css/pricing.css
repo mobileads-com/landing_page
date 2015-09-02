@@ -672,3 +672,134 @@
 	font-family: AvenirLTStd-Medium;
 	/*font-size: 19px;*/
 }
+
+.tabs-right { 
+	margin-top: 30px; 
+}
+
+.tabs-right li { 
+	float: right;
+}
+
+.modal-xl {
+    width: 1100px;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+ul.nav-tabs li{
+	width: 177.5px;
+	background-color:#f3f2db;
+	text-align:center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-right: 2px;
+	margin-bottom: -2px;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus{
+	background-color: transparent;  
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	color: #e44c3b;
+	background-color: #fefdec;  
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border:none;
+	height: 70px;
+}
+
+ul.nav-tabs > li > a{
+	font-family: AvenirLTStd-Heavy;
+	font-size: 14px;
+}
+
+ul.nav-tabs > li > a > p{
+	font-family: AvenirLTStd-Medium;
+	font-size: 11px;
+}
+
+.feature-header{
+	font-family: MuseoSans100;
+	font-size: 18px;
+}
+
+.feature-included{
+	font-family: AvenirLTStd-Heavy;
+	font-size: 18px;
+}
+
+.feature-header, .feature-included{
+	margin-left: 15px;
+}
+
+.tab-features{
+	background-color: #f3f2db;
+}
+
+.tab-forms{
+	background-color: #fefdec;
+	padding-right: 10px;
+	width: 716px;
+}
+
+.tab-forms h3{
+	font-family: AvenirLTStd-Heavy;
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tab-content .list-group-item{
+	background-color: transparent;
+	border:0px;
+}
+
+.list-group-item i{
+	color: #52be8b;
+}
+
+.list-group-item{
+	font-family: MuseoSans100;
+	color: #474747;
+}
+
+.list-group-item p{
+	margin-left: 21px;
+	font-size: 14px;
+}
+
+.list-group-item a{
+	font-size: 16px;
+}
+
+.close{
+	opacity: 10;
+	font-size: 28px;
+}
+
+.close:focus, .close:hover{
+	opacity: 10;
+}
+
+.modal-content{
+	background-color: transparent;
+	border:none;
+	box-shadow: none;
+}
