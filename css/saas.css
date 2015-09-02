@@ -76,11 +76,7 @@
 }
 
 #fourth-section {
-    background: url(../images/saas/banner1-bg.png) no-repeat;
-}
-
-#fourth-section .main-quote {
-    margin-left: 36px;
+    background: url(../images/saas/banner1-bg.png) no-repeat center;
 }
 
 #fourth-section h1 {
@@ -208,7 +204,59 @@
 
 @media (max-width: 992px) {
 
+    #first-section #be-ready h2, #be-ready h3 {
+        text-align: center;
+    }
+
+    #first-section {
+        background: url();
+    }
+
+    #first-section #be-ready div {
+        margin-bottom: 30px;
+    }
+
+    #second-section .row {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
     #fourth-section {
         background: url(../images/banner.png) no-repeat center;
+        height: 128px;
+    }
+
+    #fourth-section center {
+        margin-top: 43px;
+        vertical-align: middle;
+    }
+
+    #eighth-section button {
+        font-size: 19.7px;
+        margin-bottom: 23px;
+        margin-right: 43px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #first-section #be-ready div {
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    #fourth-section center {
+        margin-top: 33px;
+    }
+
+}
+
+@media (max-width: 1105px) and (min-width: 992px) {
+    #second-section .img2 {
+        margin-left: 40px;
     }
 }

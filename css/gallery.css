@@ -121,8 +121,14 @@
         background: url(../images/gallery/bg-lg.png) no-repeat;
         max-height: 1225px;
         height: 1225px;
+    } 
+}
+
+@media (min-width: 1706px) {
+    #first-section .main-quote {
+        margin-top: 189px;
     }
- 
+
 }
 
 @media (min-width: 1421px) and (max-width: 1920px) {
