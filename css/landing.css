@@ -637,6 +637,14 @@
          margin-left: 0; 
     }
 
+    #fifth-section .images .highlight {
+        font-size: 19px;
+    }
+
+    #fifth-section .images div.button {
+        height: 70px;
+    }
+
 }
 
 /* Custom, iPhone Retina Smallest */ 
