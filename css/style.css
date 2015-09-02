@@ -306,3 +306,9 @@ html, body {
 #seventh-section #trading-desk h2 {
     font-size: 32px;
 }
+
+#terms .row, #privacy .row {
+    background-color: #f5f3da;
+    margin-top: -13px;
+}
+
