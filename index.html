@@ -76,13 +76,13 @@
                         <a href="#">Contact Us</a>
                     </li>
                     <li class="hidden-md hidden-lg">
-                        <a style="color: #e44c3b !important" href="#">Sign In</a>
+                        <a data-toggle="modal" data-target="#myModal" style="color: #e44c3b !important" >Sign In</a>
                     </li>
 
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
-                    <li><a href="#">Sign In</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal" style="cursor: pointer;">Sign In</a></li>
                 </ul>
 
             </div>
@@ -689,6 +689,50 @@
             </ul>
         </section>
     </div>
+
+
+        <div class="container" id="signin-modal">
+          <h2>Modal Example</h2>
+          <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <img src="images/footer-logo.png" alt="">
+                    </center>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-center text-red">Sign In Account</h3>
+                    <p class="text-center form-msg"></p>
+
+                    <form id="signup-form-sm" action="signup.htm" method="post">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <a href="">Forgot your password?</a>
+                            </label>
+                        </div>
+                    </form>                    
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
 
     <!-- jQuery Version 1.11.3 -->
     <script src="js/jquery-1.11.3.min.js"></script>

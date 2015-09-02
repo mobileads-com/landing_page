@@ -312,3 +312,39 @@ html, body {
     margin-top: -13px;
 }
 
+#signin-modal .modal-content {
+    max-height: 300px;
+    height: 300px;
+    max-width: 343px;
+    width: 343px;
+    top: 50%;
+    left: 50%;
+    margin-top: 80px;
+    margin-left: -160.5px;
+    position: fixed;
+
+
+}
+
+#signin-modal h3 {
+    font-family: AvenirLTStd-Heavy; 
+    margin-top: 4px;
+    padding-bottom: 15px;
+}
+
+#signin-modal a {
+    color: #868683;
+    text-decoration: underline;
+}
+
+#signin-modal form {
+    max-width: 281px;
+    margin-left: 16px;
+}
+
+
+#signin-modal .modal-body {
+    background-color: #fefdec;
+    padding-bottom: 33px;
+
+}
