@@ -733,6 +733,7 @@ ul.nav-tabs > li > a{
 ul.nav-tabs > li > a > p{
 	font-family: AvenirLTStd-Medium;
 	font-size: 11px;
+	text-transform: none;
 }
 
 .feature-header{
@@ -802,4 +803,8 @@ ul.nav-tabs > li > a > p{
 	background-color: transparent;
 	border:none;
 	box-shadow: none;
+}
+
+#form-signup h5{
+	padding-bottom: 20px;
 }
